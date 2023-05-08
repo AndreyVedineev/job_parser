@@ -1,7 +1,8 @@
 
 
 def user_interaction():
-    pass
+    print(""" Эта программа для поиска вакансий,  на сайтах SuperJob и HeadHunter.
+    """)
 
 
 
