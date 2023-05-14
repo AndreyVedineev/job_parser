@@ -40,5 +40,18 @@ def get_area(url):
         json.dump(area, file, ensure_ascii=False)
 
 
+def normal_hh():
+    temp_list = []
+    with open(f"{references}/vacancy_hh.json", 'r', encoding='utf8') as file:
+        data = json.load(file)
+        for i in data:
+            for j in i:
+                temp_list.append(j)
+
+    with open(f"{references}/vacancy_hh.json", 'w', encoding='utf8') as file:
+        json.dump(temp_list, file, ensure_ascii=False)
+
+
 # get_area('https://api.superjob.ru/2.0/regions/combined/')
 # get_area('https://api.hh.ru/areas')
+

@@ -70,7 +70,7 @@ def salary_validator_sj():
     print(count)
 
 
-sj = SaveJsonSJ('', 25)
+sj = SaveJsonSJ('Python', 25)
 sj.get_vacancies()
 all_file_json(path_sj)
 salary_validator_sj()

@@ -4,10 +4,9 @@ import os
 import requests
 
 from src.abs import SaveVac
-from src.utils import all_file_json
+from src.utils import all_file_json, normal_hh
 
 path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь к файлу
-
 
 
 class SaveJsonHH(SaveVac):
@@ -44,52 +43,27 @@ class SaveJsonHH(SaveVac):
             f.write(json.dumps(result['items'], ensure_ascii=False))
             f.close()
 
-#
-# def all_file_json_hh(path):
-#     """ Формирование одного файла с вакансиями"""
-#
-#     # уборка - удаление содержимого файла перед формированием
-#     open(path, 'w').close()
-#
-#     # вспомогательный словарь
-#     # one_list = [x for x in range(len(os.listdir('../src/data')))]
-#     file_list = []
-#     for i in range(len(os.listdir('../src/data')) - 1):
-#         with open('../src/data/{}.json'.format(i + 1), mode='r', encoding='utf8') as file:
-#             data = json.load(file)
-#             file_list.append(data)
-#     # сшивание словаря ключ: номер файла, значение: содержимое запроса
-#     # all_dict = dict(zip(one_list, file_list))
-#     with open(path, 'w', encoding='utf8') as file:
-#         json.dump(file_list, file, ensure_ascii=False)
-#     # уборка - удаление всех файлов из директории data/
-#     filelist = [f for f in os.listdir('../src/data/') if f.endswith(".json")]
-#     for f in filelist:
-#         os.remove(os.path.join('../src/data/', f))
-
 
 def salary_validator_hh():
     """Валидатор  по отсутствии зарплаты
         перезаписывает файл """
     count = 0
     temp_list = []
-    with open(path, "r", encoding='UTF-8') as file:
+    with open(path_hh, "r", encoding='UTF-8') as file:
         templates = json.load(file)
         for i in templates:
-            for j in i:
-                if j['salary'] is not None:
-                    count += 1
-                    temp_list.append(j)
-                    print(f" {j['name']} - {j['salary']['from']}")
+            if i['salary'] is not None:
+                count += 1
+                temp_list.append(i)
+                print(f" {i['name']} -  от {i['salary']['from']} до {i['salary']['to']} ")
     print(count)
-    with open(path, "w", encoding='UTF-8') as file:
+    with open(path_hh, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
 
 
-
-
-
-hh = SaveJsonHH('', 1438)  # 53 - Краснодар. 2444 - Мостовской. 1438 - Краснодарский край 70 - Оренбург
-hh.get_vacancies()
-all_file_json(path_hh)
+# hh = SaveJsonHH('Python', 1438)  # 53 - Краснодар. 2444 - Мостовской. 1438 - Краснодарский край 70 - Оренбург
+# hh.get_vacancies()
+# all_file_json(path_hh)
+# normal_hh()
 # salary_validator_hh()
+
