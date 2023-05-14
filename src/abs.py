@@ -8,5 +8,11 @@ class Parser(ABC):
         pass
 
 
+class SaveVac(ABC):
+
+    @abstractmethod
+    def get_vacancies(self):
+        pass
+
 
 
