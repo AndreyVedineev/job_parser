@@ -3,7 +3,7 @@ import os
 
 import requests
 
-from src.head_hunter import HeadHunterAPI
+from src.head_hunter import createsvacancyAPI
 
 references = os.path.join('..', 'src', 'references')  # директория справочники
 
@@ -58,33 +58,54 @@ def normalization_hh_1():
 def creating_vacancies_hh():
     """Создание экземпляров вакансий HH"""
 
-    list_vacancies = []  # список вакансий с hh
+    list_vacancies_hh = []  # список вакансий с hh
     counter = 0  # счетчик вакансий
 
     with open(f"{references}/vacancy_hh.json", 'r', encoding='utf8') as file:
         data = json.load(file)
         for i in data:
-            vacancies_id = i['id']
             name = i['name']
             salary_from = i['salary']['from']
             salary_to = i['salary']['to']
             currency = i['salary']['currency']
             vacancies_type = i['type']['name']
             requirement = i['snippet']['requirement']  # требование
-            responsibility = i['snippet']['responsibility']  # ответственность
             employment = i['employment']['name']
+            url = i['alternate_url']
 
-            vac_hh = f'vacancy{counter}' # формирование имени экземпляра класса hh
-            vac_hh = HeadHunterAPI(vacancies_id, name, salary_from, salary_to, currency, vacancies_type, requirement,
-                                    responsibility, employment)
-
-            list_vacancies.append(vac_hh)
+            vac_hh = createsvacancyAPI(name, salary_from, salary_to, currency, vacancies_type, requirement,
+                                       employment, url)
+            list_vacancies_hh.append(vac_hh)
             counter += 1
     print(f'_Сформирован список из {counter} вакансий с сайта HeadHunter_')
-    return list_vacancies
+    return list_vacancies_hh
 
 
+def creating_vacancies_sj():
+    """Создание экземпляров вакансий SJ"""
+    list_vacancies_sj = []  # список вакансий с hh
+    counter = 0  # счетчик вакансий
 
+    with open(f"{references}/vacancy_sj.json", 'r', encoding='utf8') as file:
+        data = json.load(file)
+        for i in data:
+            name = i['profession']
+            salary_from = i['payment_from']
+            salary_to = i['payment_to']
+            currency = i['currency'].upper()
+            vacancies_type = i['is_archive']
+            requirement = i['vacancyRichText']  # требование
+            employment = i['type_of_work']['title']
+            url = i['link']
+
+            vac_hh = f'vacancy{counter}'  # формирование имени экземпляра класса hh
+            vac_hh = createsvacancyAPI(name, salary_from, salary_to, currency, vacancies_type, requirement,
+                                       employment, url)
+
+            list_vacancies_sj.append(vac_hh)
+            counter += 1
+    print(f'_Сформирован список из {counter} вакансий с сайта SuperJob_')
+    return list_vacancies_sj
 
 # def normalization_hh_2():
 #     """Проверяет поле зарплаты, если нет то ... и приводит к .... """
@@ -109,7 +130,3 @@ def creating_vacancies_hh():
 #             print(i['payment_from'])
 
 
-# get_area('https://api.superjob.ru/2.0/regions/combined/')
-# get_area('https://api.hh.ru/areas')
-# normalization_hh_2()
-# normalization_sj_1()

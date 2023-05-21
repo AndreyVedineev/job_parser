@@ -42,7 +42,7 @@ class SaveJsonSJ:
                                 '.307070a70cc950912e678555eadb8143d9c71338'}
 
             response = requests.get(self.url, params=params, headers=headers)
-            print('Запрос №' + str(number))
+            print(f'Запрос № {str(number)} к сайту SuperJob')
             result_sj = response.json()
 
             if result_sj['objects']:
@@ -56,7 +56,7 @@ class SaveJsonSJ:
 
 
 def salary_validator_sj():
-    count = 0
+    """ """
     temp_list = []
     with open(path_sj, "r", encoding='UTF-8') as file:
         templates = json.load(file)
@@ -64,14 +64,8 @@ def salary_validator_sj():
             for j in i:
                 if j['payment_from'] != 0:
                     temp_list.append(j)
-                    print(f"{j['profession']} -{j['payment_from']} - {j['payment_to']}")
-                    count += 1
+                    # print(f"{j['profession']} -{j['payment_from']} - {j['payment_to']}")
     with open(path_sj, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
-    print(count)
 
 
-sj = SaveJsonSJ('', 25)
-sj.get_vacancies()
-all_file_json(path_sj)
-salary_validator_sj()

@@ -30,13 +30,13 @@ class SaveJsonHH(SaveVac):
 
         response = requests.get(self.url, params=params, headers=headers)
         data = response.json()
-        print(f"Всего вакансий: {data['found']}")
-        print(f"Всего страниц: {data['pages']}")
+        # print(f"Всего вакансий: {data['found']}")
+        # print(f"Всего страниц: {data['pages']}")
 
         for i in range(data['pages']):
             param_cycle = {'text': self.key_word, 'area': self.town, 'page': i}
             response_cycle = requests.get(self.url, params=param_cycle, headers=headers)
-            print('Запрос №' + str(i))
+            print(f'Запрос № {str(i)} к сайту HeadHunter')
             result = response_cycle.json()
             next_file_name = '../src/data/{}.json'.format(len(os.listdir('../src/data')))
             f = open(next_file_name, mode='w', encoding='utf8')
@@ -47,23 +47,15 @@ class SaveJsonHH(SaveVac):
 def salary_validator_hh():
     """Валидатор  по отсутствии зарплаты
         перезаписывает файл """
-    count = 0
     temp_list = []
     with open(path_hh, "r", encoding='UTF-8') as file:
         templates = json.load(file)
         for i in templates:
             if i['salary'] is not None:
-                count += 1
                 temp_list.append(i)
-                print(f" {i['name']} -  от {i['salary']['from']} до {i['salary']['to']} ")
-    print(count)
+                # print(f" {i['name']} -  от {i['salary']['from']} до {i['salary']['to']} ")
+    # print(count)
     with open(path_hh, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
 
-
-hh = SaveJsonHH('', 53)  # 53 - Краснодар. 2444 - Мостовской. 1438 - Краснодарский край 70 - Оренбург
-hh.get_vacancies()
-all_file_json(path_hh)
-normalization_hh_1()
-salary_validator_hh()
 
