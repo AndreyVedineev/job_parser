@@ -166,5 +166,6 @@ def normalization_of_requirement_sj(list_no_norm):
         k = h.replace('</p>', '')
         l = k.replace('<br>', '')
         m = l.replace('<br />', '')
+        n = m.replace('\n', '')
 
-        i.requirement = m
+        i.requirement = n

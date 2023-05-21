@@ -29,6 +29,3 @@ class SuperJobAPI(Parser):
             l = json.load(file)
             sorted(l, key=lambda x: x['payment_from'])
 
-
-superb_vacancy = SuperJobAPI()
-superb_vacancy.sorted_vacancies()
