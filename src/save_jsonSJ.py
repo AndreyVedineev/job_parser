@@ -4,10 +4,10 @@ import os
 import requests
 from dotenv import load_dotenv
 
-from src.utils import all_file_json
-
 load_dotenv()
 api_key = os.getenv('SJ_SECRET_KEY')
+
+from src.utils import all_file_json
 
 path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу
 
@@ -64,13 +64,14 @@ def salary_validator_sj():
             for j in i:
                 if j['payment_from'] != 0:
                     temp_list.append(j)
+                    print(f"{j['profession']} -{j['payment_from']} - {j['payment_to']}")
                     count += 1
     with open(path_sj, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
     print(count)
 
 
-sj = SaveJsonSJ('Python', 25)
+sj = SaveJsonSJ('', 25)
 sj.get_vacancies()
 all_file_json(path_sj)
 salary_validator_sj()

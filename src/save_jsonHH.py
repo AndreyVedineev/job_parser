@@ -4,7 +4,7 @@ import os
 import requests
 
 from src.abs import SaveVac
-from src.utils import all_file_json, normal_hh
+from src.utils import all_file_json, normalization_hh_1
 
 path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь к файлу
 
@@ -61,9 +61,9 @@ def salary_validator_hh():
         json.dump(temp_list, file, ensure_ascii=False)
 
 
-# hh = SaveJsonHH('Python', 1438)  # 53 - Краснодар. 2444 - Мостовской. 1438 - Краснодарский край 70 - Оренбург
-# hh.get_vacancies()
-# all_file_json(path_hh)
-# normal_hh()
-# salary_validator_hh()
+hh = SaveJsonHH('', 53)  # 53 - Краснодар. 2444 - Мостовской. 1438 - Краснодарский край 70 - Оренбург
+hh.get_vacancies()
+all_file_json(path_hh)
+normalization_hh_1()
+salary_validator_hh()
 
