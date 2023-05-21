@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 load_dotenv()
 api_key = os.getenv('SJ_SECRET_KEY')
 
-from src.utils import all_file_json
-
 path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу
 
 
@@ -53,19 +51,5 @@ class SaveJsonSJ:
                 number += 1
             else:
                 break
-
-
-def salary_validator_sj():
-    """ """
-    temp_list = []
-    with open(path_sj, "r", encoding='UTF-8') as file:
-        templates = json.load(file)
-        for i in templates:
-            for j in i:
-                if j['payment_from'] != 0:
-                    temp_list.append(j)
-                    # print(f"{j['profession']} -{j['payment_from']} - {j['payment_to']}")
-    with open(path_sj, "w", encoding='UTF-8') as file:
-        json.dump(temp_list, file, ensure_ascii=False)
 
 

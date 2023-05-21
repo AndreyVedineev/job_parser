@@ -6,7 +6,8 @@ path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь
 references = os.path.join('..', 'src', 'references')
 
 
-class createsvacancyAPI(Parser):
+class CreatesVacancyAPI(Parser):
+    """Класс создания вакансий"""
 
     def __init__(self, name, salary_from, salary_to, currency, vacancies_type, requirement,
                  employment, url):
@@ -15,9 +16,18 @@ class createsvacancyAPI(Parser):
         self.salary_to = salary_to
         self.currency = currency
         self.vacancies_type = vacancies_type
+        self.requirement = requirement
         self.requirement = requirement  # требование
         self.employment = employment  # трудоустройство
         self.url = url
+
+    def __str__(self):
+        return f"Вакансия: {self.name}\n" \
+               f"Зарплата: от {self.salary_from} до {self.salary_to} {self.currency}\n" \
+               f"Требование: {self.requirement}\n" \
+               f"Режим работы: {self.employment}\n " \
+               f"Ссылка: {self.url}\n" \
+               f""
 
     def sorted_vacancies(self):
         pass

@@ -4,9 +4,6 @@ import os
 import requests
 
 from src.abs import SaveVac
-from src.utils import all_file_json, normalization_hh_1
-
-path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь к файлу
 
 
 class SaveJsonHH(SaveVac):
@@ -43,19 +40,5 @@ class SaveJsonHH(SaveVac):
             f.write(json.dumps(result['items'], ensure_ascii=False))
             f.close()
 
-
-def salary_validator_hh():
-    """Валидатор  по отсутствии зарплаты
-        перезаписывает файл """
-    temp_list = []
-    with open(path_hh, "r", encoding='UTF-8') as file:
-        templates = json.load(file)
-        for i in templates:
-            if i['salary'] is not None:
-                temp_list.append(i)
-                # print(f" {i['name']} -  от {i['salary']['from']} до {i['salary']['to']} ")
-    # print(count)
-    with open(path_hh, "w", encoding='UTF-8') as file:
-        json.dump(temp_list, file, ensure_ascii=False)
-
-
+    def __str__(self):
+        return self
