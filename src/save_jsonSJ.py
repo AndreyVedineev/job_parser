@@ -2,10 +2,7 @@ import json
 import os
 
 import requests
-from dotenv import load_dotenv
-
-load_dotenv()
-api_key = os.getenv('SJ_SECRET_KEY')
+from config import SJ_SECRET_KEY
 
 path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу
 
@@ -35,9 +32,7 @@ class SaveJsonSJ:
                       'page': number,
                       'count': 20
                       }
-            headers = {
-                'X-Api-App-Id': 'v3.r.137537123.a11f0eb0919c5a7678776e135569141eb8c32a88'
-                                '.307070a70cc950912e678555eadb8143d9c71338'}
+            headers = {'X-Api-App-Id': SJ_SECRET_KEY}
 
             response = requests.get(self.url, params=params, headers=headers)
             print(f'Запрос № {str(number)} к сайту SuperJob')
@@ -51,5 +46,3 @@ class SaveJsonSJ:
                 number += 1
             else:
                 break
-
-

@@ -2,9 +2,9 @@ import os
 
 from src.save_jsonHH import SaveJsonHH
 from src.save_jsonSJ import SaveJsonSJ
-from src.utils import creating_vacancies_sj, \
-    normalization_of_requirement_sj, all_file_json, normalization_hh_1, salary_validator_hh, creating_vacancies_hh, \
-    normalization_of_requirement_hh, salary_validator_sj
+from src.utils import all_file_json, normalization_hh_1, salary_validator_hh, creating_vacancies_hh, \
+    normalization_of_requirement_hh, salary_validator_sj, creating_vacancies_sj, normalization_of_requirement_sj, \
+    average_salary
 
 path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь к файлу с вакансиями HH
 path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу с вакансиями SJ
@@ -28,8 +28,8 @@ def user_interaction():
     salary_validator_hh()  # Валидатор  по отсутствии зарплаты, удаляет вакансию, перезаписывает файл
     hh_list = creating_vacancies_hh()
     normalization_of_requirement_hh(hh_list)
-    for i in hh_list:
-        print(i)
+
+    # hh_list.sort(key=lambda x: x.salary_from, reverse=True)
 
     # Парсинг сайта SuperJob
     sj = SaveJsonSJ(key_word, 25)  # 25 - краснодар, 1330 - Мостовской, 3309 - Краснодарский край, 47 - Оренбург
@@ -38,8 +38,24 @@ def user_interaction():
     salary_validator_sj()  # Валидатор  по отсутствии зарплаты, удаляет вакансию, перезаписывает файл
     sj_list = creating_vacancies_sj()
     normalization_of_requirement_sj(sj_list)
-    for i in sj_list:
+    general_list_of_vacancies = hh_list + sj_list
+    general_list_of_vacancies_sort = sorted(general_list_of_vacancies, key=lambda x: x.salary_from, reverse=True)
+    print(f'Всего по ключевому слову {key_word} удалось получить: {len(general_list_of_vacancies)} вакансий.')
+
+    num_top = get_top_number()
+    for i in general_list_of_vacancies_sort[:num_top]:
         print(i)
+    print(f'Средняя зарплата: {round(average_salary(general_list_of_vacancies_sort))} руб.')
+
+
+def get_top_number():
+    """просим пользователя ввести число"""
+    while True:
+        try:
+            num = int(input("Введите количество вакансий в топе по зарплате: "))
+            return num
+        except ValueError:
+            print("Вы ввели не число. Повторите ввод")
 
 
 if __name__ == "__main__":

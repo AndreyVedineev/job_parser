@@ -29,8 +29,5 @@ class CreatesVacancyAPI(Parser):
                f"Ссылка: {self.url}\n" \
                f""
 
-    def sorted_vacancies(self):
-        pass
-
-    def top_vacancies(self):
-        pass
+    def __add__(self, other):
+        return self.salary_from + other.salary_from

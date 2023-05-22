@@ -4,11 +4,7 @@ from abc import ABC, abstractmethod
 class Parser(ABC):
 
     @abstractmethod
-    def sorted_vacancies(self):
-        pass
-
-    @abstractmethod
-    def top_vacancies(self):
+    def __add__(self, other):
         pass
 
 
@@ -21,4 +17,5 @@ class SaveVac(ABC):
     @abstractmethod
     def __str__(self):
         pass
+
 

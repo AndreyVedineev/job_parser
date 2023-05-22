@@ -1,7 +1,6 @@
 import json
 import os
 
-
 import requests
 
 from src.creates_vacancy import CreatesVacancyAPI
@@ -64,8 +63,14 @@ def creating_vacancies_hh():
         data = json.load(file)
         for i in data:
             name = i['name']
-            salary_from = i['salary']['from']
-            salary_to = i['salary']['to']
+            if i['salary']['from'] is None:
+                salary_from = 0
+            else:
+                salary_from = i['salary']['from']
+            if i['salary']['to'] is None:
+                salary_to = "_XXX_"
+            else:
+                salary_to = i['salary']['to']
             currency = i['salary']['currency']
             vacancies_type = i['type']['name']
             if i['snippet']['requirement'] is None:
@@ -92,9 +97,12 @@ def creating_vacancies_sj():
         data = json.load(file)
         for i in data:
             name = i['profession']
-            salary_from = i['payment_from']
+            if i['payment_from'] is None:
+                salary_from = 0
+            else:
+                salary_from = i['payment_from']
             if i['payment_to'] == 0:
-                salary_to = "_X_"
+                salary_to = "_XXX_"
             else:
                 salary_to = i['payment_to']
             currency = i['currency'].upper()
@@ -167,5 +175,13 @@ def normalization_of_requirement_sj(list_no_norm):
         l = k.replace('<br>', '')
         m = l.replace('<br />', '')
         n = m.replace('\n', '')
-
         i.requirement = n
+
+
+def average_salary(list_):
+    """Вычисляет среднюю по salary from не считает если значение от: 0"""
+    c = list_[0]
+    for i in list_[1:]:
+        if i.salary_from != 0:
+            c = c + i
+    return c / len(list_)
