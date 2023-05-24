@@ -19,3 +19,19 @@ class SaveVac(ABC):
         pass
 
 
+class Saver(ABC):
+    @abstractmethod
+    def add_vacancy(self):
+        """ Все найденные вакансии"""
+        pass
+
+    @abstractmethod
+    def get_vacancies_by_salary(self, param: str):
+        """запись по диапазону зарплаты"""
+
+        pass
+
+    @abstractmethod
+    def delete_vacancy(self):
+        """Удаляет ваканисию"""
+        pass

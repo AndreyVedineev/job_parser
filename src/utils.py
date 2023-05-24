@@ -1,5 +1,6 @@
 import json
 import os
+import time
 
 import requests
 
@@ -41,7 +42,7 @@ def get_area(url):
 
 
 def normalization_hh_1():
-    """Приводить файл к к одному формату список словарей """
+    """Приводить файл к к одному формату -> список словарей """
     temp_list = []
     with open(f"{references}/vacancy_hh.json", 'r', encoding='utf8') as file:
         data = json.load(file)
@@ -85,6 +86,7 @@ def creating_vacancies_hh():
             list_vacancies_hh.append(vac_hh)
             counter += 1
     print(f'_Сформирован список из {counter} вакансий с сайта HeadHunter_')
+    time.sleep(0.3)
     return list_vacancies_hh
 
 
@@ -117,20 +119,16 @@ def creating_vacancies_sj():
             list_vacancies_sj.append(vac_sj)
             counter += 1
     print(f'_Сформирован список из {counter} вакансий с сайта SuperJob_')
+    time.sleep(0.3)
     return list_vacancies_sj
 
 
 def salary_validator_sj():
     """Валидатор  по отсутствии зарплаты
         перезаписывает файл """
-    temp_list = []
     with open(path_sj, "r", encoding='UTF-8') as file:
         templates = json.load(file)
-        for i in templates:
-            for j in i:
-                if j['payment_from'] != 0:
-                    temp_list.append(j)
-                    # print(f"{j['profession']} -{j['payment_from']} - {j['payment_to']}")
+        temp_list = [j for i in templates for j in i if j['payment_from'] != 0]
     with open(path_sj, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
 
@@ -138,14 +136,10 @@ def salary_validator_sj():
 def salary_validator_hh():
     """Валидатор  по отсутствии зарплаты
         перезаписывает файл """
-    temp_list = []
+
     with open(path_hh, "r", encoding='UTF-8') as file:
         templates = json.load(file)
-        for i in templates:
-            if i['salary'] is not None:
-                temp_list.append(i)
-                # print(f" {i['name']} -  от {i['salary']['from']} до {i['salary']['to']} ")
-    # print(count)
+        temp_list =[i for i in templates if i['salary'] is not None]
     with open(path_hh, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
 
@@ -160,19 +154,18 @@ def normalization_of_requirement_hh(list_no_norm):
 
 
 def normalization_of_requirement_sj(list_no_norm):
-    """Удаляет не нужные нам символы
-    Наверно есть другой способ😀"""
+    """Удаляет не нужные нам символы Наверно есть другой способ 😀"""
     for i in list_no_norm:
         a = str(i.requirement)
-        b = a.replace('<b>', '')
-        c = b.replace('</b>', '')
-        d = c.replace('<ul>', '')
-        e = d.replace('</ul>', '')
-        f = e.replace('<li>', '')
-        g = f.replace('</li>', '')
-        h = g.replace('<p>', '')
-        k = h.replace('</p>', '')
-        l = k.replace('<br>', '')
+        b = a.replace('<b>', ' ')
+        c = b.replace('</b>', ' ')
+        d = c.replace('<ul>', ' ')
+        e = d.replace('</ul>', ' ')
+        f = e.replace('<li>', ' ')
+        g = f.replace('</li>', ' ')
+        h = g.replace('<p>', ' ')
+        k = h.replace('</p>', ' ')
+        l = k.replace('<br>', ' ')
         m = l.replace('<br />', '')
         n = m.replace('\n', '')
         i.requirement = n
@@ -180,8 +173,7 @@ def normalization_of_requirement_sj(list_no_norm):
 
 def average_salary(list_):
     """Вычисляет среднюю по salary from не считает если значение от: 0"""
-    c = list_[0]
+    sums = list_[0].salary_from
     for i in list_[1:]:
-        if i.salary_from != 0:
-            c = c + i
-    return c / len(list_)
+        sums = i.salary_from + sums
+    return sums / len(list_)

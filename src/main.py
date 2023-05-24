@@ -1,5 +1,6 @@
 import os
 
+from src.JSONSaver import JSONSaver
 from src.save_jsonHH import SaveJsonHH
 from src.save_jsonSJ import SaveJsonSJ
 from src.utils import all_file_json, normalization_hh_1, salary_validator_hh, creating_vacancies_hh, \
@@ -47,12 +48,19 @@ def user_interaction():
         print(i)
     print(f'Средняя зарплата: {round(average_salary(general_list_of_vacancies_sort))} руб.')
 
+    json_saver = JSONSaver(general_list_of_vacancies_sort)
+    json_saver.add_vacancy()
+
+
+    # filter_words = input("Введите ключевые слова для фильтрации вакансий: ").split()
+    # filtered_vacancies = filter_vacancies(hh_vacancies, superjob_vacancies, filter_words)
+
 
 def get_top_number():
     """просим пользователя ввести число"""
     while True:
         try:
-            num = int(input("Введите количество вакансий в топе по зарплате: "))
+            num = int(input("Введите количество вакансий для вывода в топ N: "))
             return num
         except ValueError:
             print("Вы ввели не число. Повторите ввод")

@@ -16,7 +16,6 @@ class CreatesVacancyAPI(Parser):
         self.salary_to = salary_to
         self.currency = currency
         self.vacancies_type = vacancies_type
-        self.requirement = requirement
         self.requirement = requirement  # требование
         self.employment = employment  # трудоустройство
         self.url = url
@@ -30,4 +29,4 @@ class CreatesVacancyAPI(Parser):
                f""
 
     def __add__(self, other):
-        return self.salary_from + other.salary_from
+        return self.salary_from + other
