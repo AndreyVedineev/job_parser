@@ -30,3 +30,8 @@ class CreatesVacancyAPI(Parser):
 
     def __add__(self, other):
         return self.salary_from + other
+
+    # – для оператора меньше <
+    def __lt__(self, other):
+        return self.salary_from < other.salary_from
+

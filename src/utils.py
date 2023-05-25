@@ -139,7 +139,7 @@ def salary_validator_hh():
 
     with open(path_hh, "r", encoding='UTF-8') as file:
         templates = json.load(file)
-        temp_list =[i for i in templates if i['salary'] is not None]
+        temp_list = [i for i in templates if i['salary'] is not None]
     with open(path_hh, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
 
@@ -177,3 +177,12 @@ def average_salary(list_):
     for i in list_[1:]:
         sums = i.salary_from + sums
     return sums / len(list_)
+
+
+def mim_salary(list_):
+    min_salary = list_[0].salary_from
+
+    for i in list_[1:]:
+        if min_salary < i.salary_from:
+            min_salary = i.salary_from
+    return min_salary

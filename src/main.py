@@ -21,7 +21,7 @@ def user_interaction():
     # print('Введите код города')
     # key_town = int(input().strip())
 
-    # Парсинг сайта HeadHunter
+    # # Парсинг сайта HeadHunter
     hh = SaveJsonHH(key_word, 53)  # 53 - Краснодар. 2444 - Мостовской. 1438 - Краснодарский край 70 - Оренбург
     hh.get_vacancies()  # Запрос к API
     all_file_json(path_hh)  # Формирование одного файла с вакансиями"
@@ -29,10 +29,9 @@ def user_interaction():
     salary_validator_hh()  # Валидатор  по отсутствии зарплаты, удаляет вакансию, перезаписывает файл
     hh_list = creating_vacancies_hh()
     normalization_of_requirement_hh(hh_list)
+    hh_list.sort(key=lambda x: x.salary_from, reverse=True)
 
-    # hh_list.sort(key=lambda x: x.salary_from, reverse=True)
-
-    # Парсинг сайта SuperJob
+    # # Парсинг сайта SuperJob
     sj = SaveJsonSJ(key_word, 25)  # 25 - краснодар, 1330 - Мостовской, 3309 - Краснодарский край, 47 - Оренбург
     sj.get_vacancies()  # Запрос к API
     all_file_json(path_sj)  # Формирование одного файла с вакансиями"
@@ -49,8 +48,13 @@ def user_interaction():
     print(f'Средняя зарплата: {round(average_salary(general_list_of_vacancies_sort))} руб.')
 
     json_saver = JSONSaver(general_list_of_vacancies_sort)
+
+    print("Запись всех вакансий в файл vacancy.json")
     json_saver.add_vacancy()
 
+    print('Введите интересующий Вас диапазон зарплаты в формате "100 000-150 000"')
+    param = input().strip()
+    json_saver.get_vacancies_by_salary(param)
 
     # filter_words = input("Введите ключевые слова для фильтрации вакансий: ").split()
     # filtered_vacancies = filter_vacancies(hh_vacancies, superjob_vacancies, filter_words)
