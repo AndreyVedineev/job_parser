@@ -26,7 +26,7 @@ def user_interaction():
     hh.get_vacancies()  # Запрос к API
     all_file_json(path_hh)  # Формирование одного файла с вакансиями"
     normalization_hh_1()  # Приводить файл к к одному формату список словарей как у SJ
-    salary_validator_hh()  # Валидатор  по отсутствии зарплаты, удаляет вакансию, перезаписывает файл
+    salary_validator_hh()  # Валидатор  по отсутствии зарплаты,
     hh_list = creating_vacancies_hh()
     normalization_of_requirement_hh(hh_list)
     hh_list.sort(key=lambda x: x.salary_from, reverse=True)
@@ -35,7 +35,7 @@ def user_interaction():
     sj = SaveJsonSJ(key_word, 25)  # 25 - краснодар, 1330 - Мостовской, 3309 - Краснодарский край, 47 - Оренбург
     sj.get_vacancies()  # Запрос к API
     all_file_json(path_sj)  # Формирование одного файла с вакансиями"
-    salary_validator_sj()  # Валидатор  по отсутствии зарплаты, удаляет вакансию, перезаписывает файл
+    salary_validator_sj()  # Валидатор
     sj_list = creating_vacancies_sj()
     normalization_of_requirement_sj(sj_list)
     general_list_of_vacancies = hh_list + sj_list

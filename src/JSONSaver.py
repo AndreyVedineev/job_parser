@@ -33,10 +33,12 @@ class JSONSaver(Saver):
 
     def get_vacancies_by_salary(self, param: str):
         """Запись по диапазону зарплаты"""
-        temp_l = []
+        # получаем параметры от и до
         temp_ls = param.split('-')
         n_salary_from = int(temp_ls[0])
         n_salary_to = int(temp_ls[-1])
+
+        temp_l = []
         for i in self.ls_vacancy:
             if n_salary_from <= i.salary_from <= n_salary_to:
                 temp_l.append(i)
@@ -51,5 +53,3 @@ class JSONSaver(Saver):
         for i in self.ls_vacancy:
             print(f'Вакансия: {i.name}\n'
                   f'Зарплата: {i.salary_from} до {i.salary_to} {i.currency}.')
-
-    # json_saver.delete_vacancy(vacancy)
