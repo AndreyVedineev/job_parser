@@ -32,6 +32,6 @@ class Saver(ABC):
         pass
 
     @abstractmethod
-    def delete_vacancy(self):
+    def delete_close_vacancy(self):
         """Удаляет ваканисию"""
         pass

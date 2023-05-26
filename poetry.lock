@@ -305,7 +305,18 @@ secure = ["certifi", "cryptography (>=1.9)", "idna (>=2.0.0)", "pyopenssl (>=17.
 socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
 
+[[package]]
+name = "useragent"
+version = "0.1.1"
+description = "UNKNOWN"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "useragent-0.1.1.tar.gz", hash = "sha256:7ef271df2dfdaa8d7eedcc9b7247009acdbd4e29d60924daba92f0b482ca32e2"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "1e0076517aebe676542addc2dfdf503473eeddcc4b7d72ce7c7b37fcbcd04dac"
+content-hash = "c6d379698c41b95fd3985c17460556313f280794894974d5fc0c4bf9580a6414"
