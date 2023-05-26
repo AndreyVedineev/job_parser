@@ -11,6 +11,9 @@ path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь
 path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу с вакансиями SJ
 
 
+
+
+
 def user_interaction():
     """ Эта программа для поиска вакансий,  на сайтах SuperJob и HeadHunter."""
 
@@ -55,6 +58,9 @@ def user_interaction():
     print('Введите интересующий Вас диапазон зарплаты в формате "100 000-150 000"')
     param = input().strip()
     json_saver.get_vacancies_by_salary(param)
+
+    print('Удаляю все закрытые вакансии, записываю в файл vacancyop.json"')
+    json_saver.delete_close_vacancy()
 
     # filter_words = input("Введите ключевые слова для фильтрации вакансий: ").split()
     # filtered_vacancies = filter_vacancies(hh_vacancies, superjob_vacancies, filter_words)

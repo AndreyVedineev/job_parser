@@ -9,6 +9,7 @@ packages = [{include = "job_parser"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 requests = "^2.30.0"
+useragent = "^0.1.1"
 
 
 [tool.poetry.group.dev.dependencies]

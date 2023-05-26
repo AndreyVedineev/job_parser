@@ -5,6 +5,7 @@ from src.abs import Saver
 
 path = os.path.join('..', 'src', 'references', 'vacancy.json')  # путь к файлу c вакансиями
 path_by_salary = os.path.join('..', 'src', 'references', 'vacancyft.json')  # путь к файлу c вакансиями from  -> to
+path_open = os.path.join('..', 'src', 'references', 'vacancyop.json')
 
 
 def unpacking(ls):
@@ -45,9 +46,17 @@ class JSONSaver(Saver):
         with open(path_by_salary, "w", encoding='UTF-8') as file:
             json.dump(unpacking(temp_l), file, ensure_ascii=False)
 
-    def delete_vacancy(self):
-        """Удаляет ваканисию"""
-        pass
+    def delete_close_vacancy(self):
+        """Удаляет все закрытые вакансии"""
+
+        with open(path, "r", encoding='UTF-8') as file:
+            templates = json.load(file)
+            vacancy_open = [i for i in templates if i['vacancies_type']]
+        with open(path_open, "w", encoding='UTF-8') as file:
+            json.dump(vacancy_open, file, ensure_ascii=False)
+
+
+
 
     def __str__(self):
         for i in self.ls_vacancy:
