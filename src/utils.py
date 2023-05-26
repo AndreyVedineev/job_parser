@@ -179,10 +179,10 @@ def average_salary(list_):
     return sums / len(list_)
 
 
-def mim_salary(list_):
-    min_salary = list_[0].salary_from
-
-    for i in list_[1:]:
-        if min_salary < i.salary_from:
-            min_salary = i.salary_from
-    return min_salary
+# def mim_salary(list_):
+#     min_salary = list_[0].salary_from
+#
+#     for i in list_[1:]:
+#         if min_salary < i.salary_from:
+#             min_salary = i.salary_from
+#     return min_salary
