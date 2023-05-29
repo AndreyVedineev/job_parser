@@ -124,8 +124,7 @@ def creating_vacancies_sj():
 
 
 def salary_validator_sj():
-    """Валидатор  по отсутствии зарплаты
-        перезаписывает файл """
+    """Валидатор  по отсутствии зарплаты перезаписывает файл """
     with open(path_sj, "r", encoding='UTF-8') as file:
         templates = json.load(file)
         temp_list = [j for i in templates for j in i if j['payment_from'] != 0]
@@ -177,6 +176,18 @@ def average_salary(list_):
     for i in list_[1:]:
         sums = i.salary_from + sums
     return sums / len(list_)
+
+
+def create_dir_data():
+    """создать пустой каталог (папку)"""
+    if not os.path.isdir("data"):
+        os.mkdir("data")
+
+
+def del_folder():
+    """ Удаляет не нужный каталог """
+    os.rmdir("data")
+
 
 
 # def mim_salary(list_):

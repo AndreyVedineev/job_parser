@@ -7,8 +7,6 @@ from src.abs import SaveVac
 
 from fake_useragent import UserAgent
 
-UserAgent().chrome
-
 
 class SaveJsonHH(SaveVac):
     """
@@ -28,11 +26,10 @@ class SaveJsonHH(SaveVac):
         """ Создание файлов с вакансиями """
         params = {'text': self.key_word, 'area': self.town, 'page': self.page_number, 'per_page': 20}
         headers = {'User-Agent': UserAgent().chrome}
-        #headers = {'User-Agent': 'K_ParserApp/1.0'}
+        # headers = {'User-Agent': 'K_ParserApp/1.0'}
 
         response = requests.get(self.url, params=params, headers=headers)
         data = response.json()
-
 
         for i in range(data['pages']):
             param_cycle = {'text': self.key_word, 'area': self.town, 'page': i}

@@ -43,6 +43,8 @@ class JSONSaver(Saver):
         for i in self.ls_vacancy:
             if n_salary_from <= i.salary_from <= n_salary_to:
                 temp_l.append(i)
+        if len(temp_l) == 0:
+            print("Вы ввели не правильные параметры, файл будет пуст")
         with open(path_by_salary, "w", encoding='UTF-8') as file:
             json.dump(unpacking(temp_l), file, ensure_ascii=False)
 

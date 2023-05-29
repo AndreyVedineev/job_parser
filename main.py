@@ -3,15 +3,14 @@ import os
 from src.JSONSaver import JSONSaver
 from src.save_jsonHH import SaveJsonHH
 from src.save_jsonSJ import SaveJsonSJ
-from src.utils import all_file_json, normalization_hh_1, salary_validator_hh, creating_vacancies_hh, \
-    normalization_of_requirement_hh, salary_validator_sj, creating_vacancies_sj, normalization_of_requirement_sj, \
-    average_salary
+from src.utils import *
 
-path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь к файлу с вакансиями HH
-path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу с вакансиями SJ
+# all_file_json, normalization_hh_1, salary_validator_hh, creating_vacancies_hh, \
+# normalization_of_requirement_hh, salary_validator_sj, creating_vacancies_sj, normalization_of_requirement_sj, \
+# average_salary, create_dir_data, del_folder
 
-
-
+path_hh = os.path.join('', 'references', 'vacancy_hh.json')  # путь к файлу с вакансиями HH
+path_sj = os.path.join('', 'references', 'vacancy_sj.json')  # путь к файлу с вакансиями SJ
 
 
 def user_interaction():
@@ -24,23 +23,28 @@ def user_interaction():
     # print('Введите код города')
     # key_town = int(input().strip())
 
+    # создаю временную папку для работы с файлами
+    create_dir_data()
+
     # # Парсинг сайта HeadHunter
     hh = SaveJsonHH(key_word, 53)  # 53 - Краснодар. 2444 - Мостовской. 1438 - Краснодарский край 70 - Оренбург
     hh.get_vacancies()  # Запрос к API
     all_file_json(path_hh)  # Формирование одного файла с вакансиями"
     normalization_hh_1()  # Приводить файл к к одному формату список словарей как у SJ
     salary_validator_hh()  # Валидатор  по отсутствии зарплаты,
-    hh_list = creating_vacancies_hh()
+    hh_list = creating_vacancies_hh()  # Создание экемпляров вакансий
     normalization_of_requirement_hh(hh_list)
-    hh_list.sort(key=lambda x: x.salary_from, reverse=True)
 
-    # # Парсинг сайта SuperJob
+    # Парсинг сайта SuperJob
     sj = SaveJsonSJ(key_word, 25)  # 25 - краснодар, 1330 - Мостовской, 3309 - Краснодарский край, 47 - Оренбург
     sj.get_vacancies()  # Запрос к API
     all_file_json(path_sj)  # Формирование одного файла с вакансиями"
     salary_validator_sj()  # Валидатор
     sj_list = creating_vacancies_sj()
     normalization_of_requirement_sj(sj_list)
+
+    del_folder()
+    # обработка вакансий
     general_list_of_vacancies = hh_list + sj_list
     general_list_of_vacancies_sort = sorted(general_list_of_vacancies, key=lambda x: x.salary_from, reverse=True)
     print(f'Всего по ключевому слову {key_word} удалось получить: {len(general_list_of_vacancies)} вакансий.')
@@ -55,15 +59,13 @@ def user_interaction():
     print("Запись всех вакансий в файл vacancy.json")
     json_saver.add_vacancy()
 
-    print('Введите интересующий Вас диапазон зарплаты в формате "100 000-150 000"')
+    print('Введите интересующий Вас диапазон зарплаты в формате "100000-150000"')
     param = input().strip()
     json_saver.get_vacancies_by_salary(param)
 
     print('Удаляю все закрытые вакансии, записываю в файл vacancyop.json"')
     json_saver.delete_close_vacancy()
 
-    # filter_words = input("Введите ключевые слова для фильтрации вакансий: ").split()
-    # filtered_vacancies = filter_vacancies(hh_vacancies, superjob_vacancies, filter_words)
 
 
 def get_top_number():
