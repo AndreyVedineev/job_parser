@@ -62,6 +62,7 @@ def user_interaction():
     print('Введите интересующий Вас диапазон зарплаты в формате "100000-150000"')
     param = input().strip()
     json_saver.get_vacancies_by_salary(param)
+    print('Записываю все интересующие Вас вакансий в файл vacancyft.json')
 
     print('Удаляю все закрытые вакансии, записываю в файл vacancyop.json"')
     json_saver.delete_close_vacancy()

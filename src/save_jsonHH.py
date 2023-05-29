@@ -38,7 +38,7 @@ class SaveJsonHH(SaveVac):
                 response_cycle = requests.get(self.url, params=param_cycle, headers=headers)
                 print(f'Запрос № {str(i)} к сайту HeadHunter')
                 if response_cycle.status_code != 200:
-                    raise ParsingErorr(f"Ошибка получения вакансий! Статус: {response_cycle.status_code}")
+                    raise ParsingErorr(f"Ошибка получения вакансий!")
                 result = response_cycle.json()
             except ConnectionResetError as e:
                 print(ParsingErorr("Ошибка получения вакансии - ", e))

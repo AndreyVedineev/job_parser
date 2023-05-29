@@ -20,7 +20,6 @@ class SaveJsonSJ:
         self.url = 'https://api.superjob.ru/2.0/vacancies/?'
 
     def get_vacancies(self):
-        global result_sj
         number = 0
         while True:
 
@@ -38,6 +37,8 @@ class SaveJsonSJ:
             try:
                 response = requests.get(self.url, params=params, headers=headers)
                 print(f'Запрос № {str(number)} к сайту SuperJob')
+                if response.status_code != 200:
+                    raise ParsingErorr(f"Ошибка получения вакансий!")
                 result_sj = response.json()
             except ConnectionResetError as e:
                 print(ParsingErorr("Ошибка получения вакансии - ", e))
