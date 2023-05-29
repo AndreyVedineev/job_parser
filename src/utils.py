@@ -152,7 +152,7 @@ def normalization_of_requirement_hh(list_no_norm):
         i.requirement = c
 
 
-def normalization_of_requirement_sj(list_no_norm):
+def normalization_of_requirement_sj(list_no_norm: object) -> object:
     """Удаляет не нужные нам символы Наверно есть другой способ 😀"""
     for i in list_no_norm:
         a = str(i.requirement)
@@ -168,6 +168,7 @@ def normalization_of_requirement_sj(list_no_norm):
         m = l.replace('<br />', '')
         n = m.replace('\n', '')
         i.requirement = n
+    return list_no_norm
 
 
 def average_salary(list_):

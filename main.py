@@ -33,7 +33,7 @@ def user_interaction():
     normalization_hh_1()  # Приводить файл к к одному формату список словарей как у SJ
     salary_validator_hh()  # Валидатор  по отсутствии зарплаты,
     hh_list = creating_vacancies_hh()  # Создание экемпляров вакансий
-    normalization_of_requirement_hh(hh_list)
+
 
     # Парсинг сайта SuperJob
     sj = SaveJsonSJ(key_word, 25)  # 25 - краснодар, 1330 - Мостовской, 3309 - Краснодарский край, 47 - Оренбург
@@ -41,11 +41,12 @@ def user_interaction():
     all_file_json(path_sj)  # Формирование одного файла с вакансиями"
     salary_validator_sj()  # Валидатор
     sj_list = creating_vacancies_sj()
-    normalization_of_requirement_sj(sj_list)
+
 
     del_folder()
     # обработка вакансий
     general_list_of_vacancies = hh_list + sj_list
+    general_list_of_vacancies = normalization_of_requirement_sj(general_list_of_vacancies)
     general_list_of_vacancies_sort = sorted(general_list_of_vacancies, key=lambda x: x.salary_from, reverse=True)
     print(f'Всего по ключевому слову {key_word} удалось получить: {len(general_list_of_vacancies)} вакансий.')
 

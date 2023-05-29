@@ -57,9 +57,6 @@ class JSONSaver(Saver):
         with open(path_open, "w", encoding='UTF-8') as file:
             json.dump(vacancy_open, file, ensure_ascii=False)
 
-
-
-
     def __str__(self):
         for i in self.ls_vacancy:
             print(f'Вакансия: {i.name}\n'
