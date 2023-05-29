@@ -40,7 +40,7 @@ class SaveJsonSJ:
                 if response.status_code != 200:
                     raise ParsingErorr(f"Ошибка получения вакансий!")
                 result_sj = response.json()
-            except ConnectionResetError as e:
+            except ConnectionError as e:
                 print(ParsingErorr("Ошибка получения вакансии - ", e))
 
             if result_sj['objects']:
