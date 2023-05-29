@@ -3,6 +3,7 @@ import os
 
 import requests
 from config import SJ_SECRET_KEY
+from src.abs import ParsingErorr
 
 path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу
 
@@ -33,10 +34,14 @@ class SaveJsonSJ:
                       'count': 20
                       }
             headers = {'X-Api-App-Id': SJ_SECRET_KEY}
-
-            response = requests.get(self.url, params=params, headers=headers)
-            print(f'Запрос № {str(number)} к сайту SuperJob')
-            result_sj = response.json()
+            try:
+                response = requests.get(self.url, params=params, headers=headers)
+                print(f'Запрос № {str(number)} к сайту SuperJob')
+                if response.status_code != 200:
+                    raise ParsingErorr(f"Ошибка получения вакансий!")
+                result_sj = response.json()
+            except ConnectionResetError as e:
+                print(ParsingErorr("Ошибка получения вакансии - ", e))
 
             if result_sj['objects']:
                 next_file_name = '../src/data/{}.json'.format(len(os.listdir('../src/data')))

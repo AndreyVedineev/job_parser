@@ -3,7 +3,7 @@ import os
 
 import requests
 
-from src.abs import SaveVac
+from src.abs import SaveVac, ParsingErorr
 
 from fake_useragent import UserAgent
 
@@ -29,13 +29,20 @@ class SaveJsonHH(SaveVac):
         # headers = {'User-Agent': 'K_ParserApp/1.0'}
 
         response = requests.get(self.url, params=params, headers=headers)
-        data = response.json()
+        # data = response.json()
+        count_data = response.json()['pages']
 
-        for i in range(data['pages']):
+        for i in range(count_data):
             param_cycle = {'text': self.key_word, 'area': self.town, 'page': i}
-            response_cycle = requests.get(self.url, params=param_cycle, headers=headers)
-            print(f'Запрос № {str(i)} к сайту HeadHunter')
-            result = response_cycle.json()
+            try:
+                response_cycle = requests.get(self.url, params=param_cycle, headers=headers)
+                print(f'Запрос № {str(i)} к сайту HeadHunter')
+                if response_cycle.status_code != 200:
+                    raise ParsingErorr(f"Ошибка получения вакансий!")
+                result = response_cycle.json()
+            except ConnectionResetError as e:
+                print(ParsingErorr("Ошибка получения вакансии - ", e))
+
             next_file_name = '../src/data/{}.json'.format(len(os.listdir('../src/data')))
             f = open(next_file_name, mode='w', encoding='utf8')
             f.write(json.dumps(result['items'], ensure_ascii=False))
