@@ -35,3 +35,12 @@ class Saver(ABC):
     def delete_close_vacancy(self):
         """Удаляет ваканисию"""
         pass
+
+
+class ParsingErorr(Exception):
+    def __init__(self, mess):
+        self.mess = mess
+        
+    def __str__(self):
+        return self.mess
+        

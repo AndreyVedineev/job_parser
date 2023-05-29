@@ -67,7 +67,6 @@ def user_interaction():
     json_saver.delete_close_vacancy()
 
 
-
 def get_top_number():
     """просим пользователя ввести число"""
     while True:
