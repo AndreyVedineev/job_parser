@@ -40,7 +40,7 @@ class SaveJsonHH(SaveVac):
                 if response_cycle.status_code != 200:
                     raise ParsingErorr(f"Ошибка получения вакансий!")
                 result = response_cycle.json()
-            except ConnectionResetError as e:
+            except ConnectionError as e:
                 print(ParsingErorr("Ошибка получения вакансии - ", e))
 
             next_file_name = '../src/data/{}.json'.format(len(os.listdir('../src/data')))
