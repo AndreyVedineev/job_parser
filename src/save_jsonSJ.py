@@ -44,7 +44,7 @@ class SaveJsonSJ:
                 print(ParsingErorr("Ошибка получения вакансии - ", e))
 
             if result_sj['objects']:
-                next_file_name = '../src/data/{}.json'.format(len(os.listdir('../src/data')))
+                next_file_name = 'data/{}.json'.format(len(os.listdir('data')))
                 f = open(next_file_name, mode='w', encoding='utf8')
                 f.write(json.dumps(result_sj['objects'], ensure_ascii=False))
                 f.close()

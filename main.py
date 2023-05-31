@@ -9,8 +9,8 @@ from src.utils import *
 # normalization_of_requirement_hh, salary_validator_sj, creating_vacancies_sj, normalization_of_requirement_sj, \
 # average_salary, create_dir_data, del_folder
 
-path_hh = os.path.join('', 'references', 'vacancy_hh.json')  # путь к файлу с вакансиями HH
-path_sj = os.path.join('', 'references', 'vacancy_sj.json')  # путь к файлу с вакансиями SJ
+path_hh = os.path.join('src', 'references', 'vacancy_hh.json')  # путь к файлу с вакансиями HH
+path_sj = os.path.join('src', 'references', 'vacancy_sj.json')  # путь к файлу с вакансиями SJ
 
 
 def user_interaction():

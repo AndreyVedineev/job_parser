@@ -6,9 +6,9 @@ import requests
 
 from src.creates_vacancy import CreatesVacancyAPI
 
-references = os.path.join('..', 'src', 'references')  # директория справочники
-path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу
-path_hh = os.path.join('..', 'src', 'references', 'vacancy_hh.json')  # путь к файлу
+references = os.path.join('src', 'references')  # директория справочники
+path_sj = os.path.join('src', 'references', 'vacancy_sj.json')  # путь к файлу
+path_hh = os.path.join('src', 'references', 'vacancy_hh.json')  # путь к файлу
 
 
 def all_file_json(path):
@@ -17,17 +17,17 @@ def all_file_json(path):
     # уборка - удаление содержимого файла перед формированием
     open(path, 'w').close()
     file_list = []
-    for i in range(len(os.listdir('../src/data')) - 1):
-        with open('../src/data/{}.json'.format(i + 1), mode='r', encoding='utf8') as file:
+    for i in range(len(os.listdir('data')) - 1):
+        with open('data/{}.json'.format(i + 1), mode='r', encoding='utf8') as file:
             data = json.load(file)
             file_list.append(data)
 
     with open(path, 'w', encoding='utf8') as file:
         json.dump(file_list, file, ensure_ascii=False)
     # уборка - удаление всех файлов из директории data/
-    filelist = [f for f in os.listdir('../src/data/') if f.endswith(".json")]
+    filelist = [f for f in os.listdir('data/') if f.endswith(".json")]
     for f in filelist:
-        os.remove(os.path.join('../src/data/', f))
+        os.remove(os.path.join('data/', f))
 
 
 def get_area(url):

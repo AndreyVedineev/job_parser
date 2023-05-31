@@ -3,9 +3,9 @@ import os
 
 from src.abs import Saver
 
-path = os.path.join('..', 'src', 'references', 'vacancy.json')  # путь к файлу c вакансиями
-path_by_salary = os.path.join('..', 'src', 'references', 'vacancyft.json')  # путь к файлу c вакансиями from  -> to
-path_open = os.path.join('..', 'src', 'references', 'vacancyop.json')
+path = os.path.join('src', 'references', 'vacancy.json')  # путь к файлу c вакансиями
+path_by_salary = os.path.join('src', 'references', 'vacancyft.json')  # путь к файлу c вакансиями from  -> to
+path_open = os.path.join('src', 'references', 'vacancyop.json')
 
 
 def unpacking(ls):
