@@ -8,8 +8,6 @@ from src.abs import SaveVac, ParsingErorr
 from fake_user_agent import user_agent
 
 
-
-
 class SaveJsonHH(SaveVac):
     """
            соднание списка вакансий в файле save_jsonHH.json с сайта HeadHunter
