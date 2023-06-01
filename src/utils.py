@@ -10,26 +10,6 @@ references = os.path.join('src', 'references')  # директория спра�
 path_sj = os.path.join('src', 'references', 'vacancy_sj.json')  # путь к файлу
 path_hh = os.path.join('src', 'references', 'vacancy_hh.json')  # путь к файлу
 
-
-def all_file_json(path):
-    """ Формирование одного файла с вакансиями"""
-
-    # уборка - удаление содержимого файла перед формированием
-    open(path, 'w').close()
-    file_list = []
-    for i in range(len(os.listdir('data')) - 1):
-        with open('data/{}.json'.format(i + 1), mode='r', encoding='utf8') as file:
-            data = json.load(file)
-            file_list.append(data)
-
-    with open(path, 'w', encoding='utf8') as file:
-        json.dump(file_list, file, ensure_ascii=False)
-    # уборка - удаление всех файлов из директории data/
-    filelist = [f for f in os.listdir('data/') if f.endswith(".json")]
-    for f in filelist:
-        os.remove(os.path.join('data/', f))
-
-
 def get_area(url):
     """'https://api.hh.ru/areas'  - Hunt Hanter
         https://api.superjob.ru/2.0/regions/combined/  - superJob
@@ -39,20 +19,6 @@ def get_area(url):
 
     with open(f"{references}/area_sj.json", "w", encoding='UTF-8') as file:
         json.dump(area, file, ensure_ascii=False)
-
-
-def normalization_hh_1():
-    """Приводить файл к к одному формату -> список словарей """
-    temp_list = []
-    with open(f"{references}/vacancy_hh.json", 'r', encoding='utf8') as file:
-        data = json.load(file)
-        for i in data:
-            for j in i:
-                temp_list.append(j)
-
-    with open(f"{references}/vacancy_hh.json", 'w', encoding='utf8') as file:
-        json.dump(temp_list, file, ensure_ascii=False)
-
 
 def creating_vacancies_hh():
     """Создание экземпляров вакансий HH"""
@@ -127,7 +93,7 @@ def salary_validator_sj():
     """Валидатор  по отсутствии зарплаты перезаписывает файл """
     with open(path_sj, "r", encoding='UTF-8') as file:
         templates = json.load(file)
-        temp_list = [j for i in templates for j in i if j['payment_from'] != 0]
+        temp_list = [i for i in templates if i['payment_from'] != 0]
     with open(path_sj, "w", encoding='UTF-8') as file:
         json.dump(temp_list, file, ensure_ascii=False)
 
@@ -189,12 +155,3 @@ def del_folder():
     """ Удаляет не нужный каталог """
     os.rmdir("data")
 
-
-
-# def mim_salary(list_):
-#     min_salary = list_[0].salary_from
-#
-#     for i in list_[1:]:
-#         if min_salary < i.salary_from:
-#             min_salary = i.salary_from
-#     return min_salary

@@ -38,9 +38,7 @@ class Saver(ABC):
 
 
 class ParsingErorr(Exception):
-    def __init__(self, mess="Ошибка!"):
-        self.mess = mess
         
     def __str__(self):
-        return self.mess
+        print('Ошибка запроса')
         

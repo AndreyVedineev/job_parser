@@ -7,6 +7,8 @@ from src.abs import SaveVac, ParsingErorr
 
 from fake_user_agent import user_agent
 
+path_hh = os.path.join('src', 'references', 'vacancy_hh.json')  # путь к файлу
+
 
 class SaveJsonHH(SaveVac):
     """
@@ -24,29 +26,24 @@ class SaveJsonHH(SaveVac):
 
     def get_vacancies(self):
         """ Создание файлов с вакансиями """
+        hh_vac = []
         params = {'text': self.key_word, 'area': self.town, 'page': self.page_number, 'per_page': 20}
         headers = {'User-Agent': user_agent('chrome')}
         # headers = {'User-Agent': 'K_ParserApp/1.0'}
-
         response = requests.get(self.url, params=params, headers=headers)
-        # data = response.json()
         count_data = response.json()['pages']
-
         for i in range(count_data):
             param_cycle = {'text': self.key_word, 'area': self.town, 'page': i}
-            try:
-                response_cycle = requests.get(self.url, params=param_cycle, headers=headers)
-                print(f'Запрос № {str(i)} к сайту HeadHunter')
-                if response_cycle.status_code != 200:
-                    raise ParsingErorr(f"Ошибка получения вакансий!")
-                result = response_cycle.json()
-            except ConnectionResetError as e:
-                print(ParsingErorr("Ошибка получения вакансии - ", e))
-
-            next_file_name = 'data/{}.json'.format(len(os.listdir('data')))
-            f = open(next_file_name, mode='w', encoding='utf8')
-            f.write(json.dumps(result['items'], ensure_ascii=False))
-            f.close()
+            response_cycle = requests.get(self.url, params=param_cycle, headers=headers)
+            if response.status_code != 200:
+                raise ParsingErorr
+            print(f'Запрос № {str(i)} к сайту HeadHunter')
+            result = response_cycle.json()
+            hh_vac.extend(result['items'])
+        # next_file_name = 'data/{}.json'.format(len(os.listdir('data')))
+        f = open(path_hh, mode='w', encoding='utf8')
+        f.write(json.dumps(hh_vac, ensure_ascii=False))
+        f.close()
 
     def __str__(self):
         return self
