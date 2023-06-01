@@ -1,1 +1,2762 @@
-[{"id": "81277269", "premium": false, "name": "Программист Backend", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 50000, "to": 70000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "улица Красных Партизан", "building": "1/4к9", "lat": 45.08166896387351, "lng": 38.898720915343944, "description": null, "raw": "Краснодар, улица Красных Партизан, 1/4к9", "metro": null, "metro_stations": [], "id": "13326418"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-30T08:56:25+0300", "created_at": "2023-05-30T08:56:25+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81277269", "insider_interview": null, "url": "https://api.hh.ru/vacancies/81277269?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/81277269", "relations": [], "employer": {"id": "9434158", "name": "ПАРТНЕР", "url": "https://api.hh.ru/employers/9434158", "alternate_url": "https://hh.ru/employer/9434158", "logo_urls": null, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9434158", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Знание современных тенденций web-разработки. Backend направление. <highlighttext>Python</highlighttext> и другие языки программирования. Командная работа.", "responsibility": "Разработка/модернизация crm системы, сайтов, интернет магазинов, ios/android приложений. Поддержание работоспособности сайтов компании."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "96", "name": "Программист, разработчик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80847073", "premium": false, "name": "Системный администратор веб-серверов Linux", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 60000, "to": 70000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "улица Монтажников", "building": "1", "lat": 45.059103, "lng": 38.962799, "description": null, "raw": "Краснодар, улица Монтажников, 1", "metro": null, "metro_stations": [], "id": "181800"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-28T17:49:29+0300", "created_at": "2023-05-28T17:49:29+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80847073", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80847073?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80847073", "relations": [], "employer": {"id": "1079167", "name": "Вебасист Краснодар", "url": "https://api.hh.ru/employers/1079167", "alternate_url": "https://hh.ru/employer/1079167", "logo_urls": {"90": "https://hhcdn.ru/employer-logo/746657.jpeg", "240": "https://hhcdn.ru/employer-logo/746658.jpeg", "original": "https://hhcdn.ru/employer-logo-original/81506.jpg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1079167", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "...drbd, pacemaker, xen, keepalived). Знание системы мониторинга zabbix. Знание и навыки программирования на bash, <highlighttext>python</highlighttext>, perl и php. Знание sql.", "responsibility": "Администрирование серверного парка для крупного интернет-проекта. Мониторинг производительности и работоспособности веб-сервисов компании. Разработка архитектуры серверного кластера и внедрение..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "113", "name": "Системный администратор"}], "accept_incomplete_resumes": false, "experience": {"id": "between3And6", "name": "От 3 до 6 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80013279", "premium": false, "name": "Программист (тьютор)", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 28000, "to": 56000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "Восточно-Кругликовская улица", "building": "26", "lat": 45.049029, "lng": 39.028071, "description": null, "raw": "Краснодар, Восточно-Кругликовская улица, 26", "metro": null, "metro_stations": [], "id": "12572643"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-29T20:51:40+0300", "created_at": "2023-05-29T20:51:40+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80013279", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80013279?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80013279", "relations": [], "employer": {"id": "9322295", "name": "KIBERone (ООО Лаборатория Инноваций)", "url": "https://api.hh.ru/employers/9322295", "alternate_url": "https://hh.ru/employer/9322295", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/1024448.png", "240": "https://hhcdn.ru/employer-logo/5718561.png", "90": "https://hhcdn.ru/employer-logo/5718560.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9322295", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Полезный опыт от международной компании. Транслирование программ КиберШколы по методическим пособиям и передача практического опыта для нового IT-поколения от...", "responsibility": "Методические пособия с подробной инструкцией на каждый урок. Участие в промо-мероприятиях и конференциях."}, "contacts": null, "schedule": null, "working_days": [{"id": "only_saturday_and_sunday", "name": "Работа только по сб и вс"}], "working_time_intervals": [{"id": "from_four_to_six_hours_in_a_day", "name": "Можно работать сменами по 4–6 часов в день"}], "working_time_modes": [{"id": "start_after_sixteen", "name": "Можно начинать работать после 16:00"}], "accept_temporary": true, "professional_roles": [{"id": "132", "name": "Учитель, преподаватель, педагог"}], "accept_incomplete_resumes": false, "experience": {"id": "noExperience", "name": "Нет опыта"}, "employment": {"id": "part", "name": "Частичная занятость"}}, {"id": "80516419", "premium": false, "name": "Системный инженер", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 65000, "to": null, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "Кузнечная улица", "building": "6", "lat": 45.036394, "lng": 38.977694, "description": null, "raw": "Краснодар, Кузнечная улица, 6", "metro": null, "metro_stations": [], "id": "4525136"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-28T15:38:09+0300", "created_at": "2023-05-28T15:38:09+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80516419", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80516419?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80516419", "relations": [], "employer": {"id": "887248", "name": "Инжиниринговый Центр РЕГИОНАЛЬНЫЕ СИСТЕМЫ", "url": "https://api.hh.ru/employers/887248", "alternate_url": "https://hh.ru/employer/887248", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/950598.png", "240": "https://hhcdn.ru/employer-logo/4242929.png", "90": "https://hhcdn.ru/employer-logo/4242928.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=887248", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт написания скриптов Powershell, <highlighttext>Python</highlighttext>, bash. Опыт работы с другими системами защиты информации (FW, IPS, DLP и пр.). ", "responsibility": "Участие в пуско-наладочных работах, испытаниях, настройке ИТ-оборудования и средств ИБ. Разработка документации по итогам внедрения. Участие в проектировании..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "114", "name": "Системный инженер"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80497112", "premium": false, "name": "Менеджер ИТ проектов (в офис)", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 40000, "to": 90000, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "улица Дзержинского", "building": "80/1", "lat": 45.091513, "lng": 38.977783, "description": null, "raw": "Краснодар, улица Дзержинского, 80/1", "metro": null, "metro_stations": [], "id": "522187"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-30T09:44:11+0300", "created_at": "2023-05-30T09:44:11+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80497112", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80497112?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80497112", "relations": [], "employer": {"id": "1891946", "name": "КУБАНЬ-НОВОСТРОЙ", "url": "https://api.hh.ru/employers/1891946", "alternate_url": "https://hh.ru/employer/1891946", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/952683.jpeg", "240": "https://hhcdn.ru/employer-logo/4251265.jpeg", "90": "https://hhcdn.ru/employer-logo/4251264.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1891946", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Умение работать в режиме многозадачности. Внимательность, коммуникабельность, умение анализировать данные для принятия решений. Умение ставить ТЗ. Аналитические способности и умение...", "responsibility": "Поиск и парсинг баз данных. Написание скриптов на <highlighttext>python</highlighttext>. Написание ТЗ для разработчиков. Своевременная оплата сервисов, выставление счетов. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": true, "professional_roles": [{"id": "73", "name": "Менеджер продукта"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "81307071", "premium": false, "name": "Специалист технической поддержки", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 45000, "to": 49500, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "микрорайон Камвольно-суконный Комбинат, Молодёжная улица", "building": "25", "lat": 45.028311, "lng": 39.071181, "description": null, "raw": "Краснодар, микрорайон Камвольно-суконный Комбинат, Молодёжная улица, 25", "metro": null, "metro_stations": [], "id": "813705"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-30T14:05:45+0300", "created_at": "2023-05-30T14:05:45+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81307071", "insider_interview": null, "url": "https://api.hh.ru/vacancies/81307071?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/81307071", "relations": [], "employer": {"id": "2888", "name": "DSSL", "url": "https://api.hh.ru/employers/2888", "alternate_url": "https://hh.ru/employer/2888", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/232219.bmp", "240": "https://hhcdn.ru/employer-logo/546156.png", "90": "https://hhcdn.ru/employer-logo/546155.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2888", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "...с сетевым оборудованием. Приветствуются навыки настройки сетевого оборудования и систем видеонаблюдения. Навыки программирования на <highlighttext>Python</highlighttext> дадут дополнительные возможности карьерного роста.", "responsibility": "Поддержка клиентов компании по телефону и электронной почте в технических вопросах функционирования систем цифрового видеонаблюдения производства компании DSSL. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "121", "name": "Специалист технической поддержки"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "77758081", "premium": false, "name": "Эксперт по эксплуатации CS&PS Core и VAS платформ", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 80000, "to": 93000, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "Морская улица", "building": "54/2", "lat": 45.056683, "lng": 38.967812, "description": null, "raw": "Краснодар, Морская улица, 54/2", "metro": null, "metro_stations": [], "id": "3965969"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-30T16:58:31+0300", "created_at": "2023-05-30T16:58:31+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77758081", "insider_interview": null, "url": "https://api.hh.ru/vacancies/77758081?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/77758081", "relations": [], "employer": {"id": "3776", "name": "МТС", "url": "https://api.hh.ru/employers/3776", "alternate_url": "https://hh.ru/employer/3776", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/1077164.png", "240": "https://hhcdn.ru/employer-logo/5929286.png", "90": "https://hhcdn.ru/employer-logo/5929285.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776", "accredited_it_employer": true, "trusted": true}, "snippet": {"requirement": "Высшее образование в области телекоммуникаций, или в том числе студента выпускного курса с возможностью совмещать учебу с работой. ", "responsibility": "Контролировать устранение аварийных ситуаций на сети. Контролировать работы по технической эксплуатации оборудования CS&PS Core, VAS платформ. Взаимодействовать с региональными..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "113", "name": "Системный администратор"}], "accept_incomplete_resumes": false, "experience": {"id": "noExperience", "name": "Нет опыта"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "81084275", "premium": false, "name": "Преподаватель в \"Инжинириум МГТУ им. Н.Э. Баумана\"", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 45000, "to": 60000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "улица имени Героя Николая Шевелёва", "building": "7", "lat": 45.075979, "lng": 39.038411, "description": null, "raw": "Краснодар, улица имени Героя Николая Шевелёва, 7", "metro": null, "metro_stations": [], "id": "11974856"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-26T11:07:55+0300", "created_at": "2023-05-26T11:07:55+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81084275", "insider_interview": null, "url": "https://api.hh.ru/vacancies/81084275?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/81084275", "relations": [], "employer": {"id": "9283616", "name": "Инжинириум МГТУ им. Н.Э. Баумана (ООО Инжинириум)", "url": "https://api.hh.ru/employers/9283616", "alternate_url": "https://hh.ru/employer/9283616", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/1019364.png", "90": "https://hhcdn.ru/employer-logo/5698224.png", "240": "https://hhcdn.ru/employer-logo/5698225.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9283616", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт преподавательской деятельности или опыт работы с детьми (работа в качестве репетитора, опыт работы в детских лагерях, педагогическая практика и...", "responsibility": "Заблаговременная подготовка к проведению занятия (изучение методик, подготовка оборудования (конструкторы и компьютеры). Бережное отношение к вверенному оборудованию. Осуществление коммуникации и..."}, "contacts": null, "schedule": null, "working_days": [{"id": "only_saturday_and_sunday", "name": "Работа только по сб и вс"}], "working_time_intervals": [{"id": "from_four_to_six_hours_in_a_day", "name": "Можно работать сменами по 4–6 часов в день"}], "working_time_modes": [{"id": "start_after_sixteen", "name": "Можно начинать работать после 16:00"}], "accept_temporary": true, "professional_roles": [{"id": "132", "name": "Учитель, преподаватель, педагог"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "77078511", "premium": false, "name": "Специалист по сетевой безопасности (г. Ялта, Республика Крым)", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 100000, "to": 130000, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-29T14:29:16+0300", "created_at": "2023-05-29T14:29:16+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77078511", "insider_interview": null, "url": "https://api.hh.ru/vacancies/77078511?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/77078511", "relations": [], "employer": {"id": "1659845", "name": "Mriya Resort & SPA", "url": "https://api.hh.ru/employers/1659845", "alternate_url": "https://hh.ru/employer/1659845", "logo_urls": {"240": "https://hhcdn.ru/employer-logo/1748039.jpeg", "original": "https://hhcdn.ru/employer-logo-original/326422.jpg", "90": "https://hhcdn.ru/employer-logo/1748038.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1659845", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт работы с сетевым оборудованием, МСЭ, NGFW (Cisco, CheckPoint, PaloAlto). Знание скриптовых языков программирования (powershell, <highlighttext>python</highlighttext>, etc) – будет преимуществом. ", "responsibility": "Анализ состояния защищенности сетевой инфраструктуры. Внедрение, эксплуатация и развитие сетевых средств защиты информации. Контроль соблюдения нормативных и регламентирующих документов ИБ. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "116", "name": "Специалист по информационной безопасности"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80450673", "premium": false, "name": "Продуктовый аналитик / Lead Product Analyst", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 250000, "to": null, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-26T21:15:46+0300", "created_at": "2023-05-26T21:15:46+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80450673", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80450673?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80450673", "relations": [], "employer": {"id": "1310515", "name": "Zoon.ru", "url": "https://api.hh.ru/employers/1310515", "alternate_url": "https://hh.ru/employer/1310515", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/849582.jpg", "240": "https://hhcdn.ru/employer-logo/3839204.jpeg", "90": "https://hhcdn.ru/employer-logo/3839203.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1310515", "accredited_it_employer": true, "trusted": true}, "snippet": {"requirement": "Хорошее знание математической статистики. Владение SQL. Уверенное владение <highlighttext>Python</highlighttext> и data-related библиотеками. Опыт работы с колоночными базами данных. ", "responsibility": "Мы отвечаем за развитие платных продуктов Зуна, а также работаем над админкой и CRM для личного пользования сотрудников. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "40", "name": "Другое"}], "accept_incomplete_resumes": true, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "81080116", "premium": false, "name": "QA Engineer на проекты на JS и Python", "department": {"id": "68587-68587-abiz", "name": "Алабуга. Департамент арендного бизнеса"}, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 100000, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-26T10:29:15+0300", "created_at": "2023-05-26T10:29:15+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81080116", "insider_interview": null, "url": "https://api.hh.ru/vacancies/81080116?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/81080116", "relations": [], "employer": {"id": "68587", "name": "Алабуга, ОЭЗ ППТ", "url": "https://api.hh.ru/employers/68587", "alternate_url": "https://hh.ru/employer/68587", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/481384.jpg", "240": "https://hhcdn.ru/employer-logo/2367389.jpeg", "90": "https://hhcdn.ru/employer-logo/2367388.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=68587", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт работы тестировщиком - от 2 лет. Опыт работы с Atlassian Jira, Confluence, Qase. Опыт написания тест кейсов. Опыт тестирования web...", "responsibility": "Ручное и автоматизированное тестирование компонентов проекта. Внедрение новых инструментов и методик тестирования продукта. Разработка и поддержка тестовой документации в актуальном..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "124", "name": "Тестировщик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80200033", "premium": false, "name": "Программист C++ (Qt)", "department": {"id": "68587-68587-manager", "name": "Алабуга. Проектный менеджмент"}, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 200000, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-09T16:16:19+0300", "created_at": "2023-05-09T16:16:19+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80200033", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80200033?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80200033", "relations": [], "employer": {"id": "68587", "name": "Алабуга, ОЭЗ ППТ", "url": "https://api.hh.ru/employers/68587", "alternate_url": "https://hh.ru/employer/68587", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/481384.jpg", "240": "https://hhcdn.ru/employer-logo/2367389.jpeg", "90": "https://hhcdn.ru/employer-logo/2367388.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=68587", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт в робототехнике, IoT. Опыт разработки систем управления. Владение <highlighttext>Python</highlighttext>. Дополнительные знания в областях сотовой связи, систем с использованием ГЛОНАСС...", "responsibility": "Участвовать в разработке и сопровождении приложений на С++ во фреймворке Qt. Участвовать в проектировании и разработке архитектуры ПО. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "96", "name": "Программист, разработчик"}], "accept_incomplete_resumes": false, "experience": {"id": "between3And6", "name": "От 3 до 6 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "78897008", "premium": false, "name": "Сетевой администратор", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 80000, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "улица Красных Партизан", "building": "393", "lat": 45.052322, "lng": 38.951481, "description": null, "raw": "Краснодар, улица Красных Партизан, 393", "metro": null, "metro_stations": [], "id": "5631050"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-26T11:10:10+0300", "created_at": "2023-05-26T11:10:10+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78897008", "insider_interview": null, "url": "https://api.hh.ru/vacancies/78897008?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/78897008", "relations": [], "employer": {"id": "4361919", "name": "РТК-Сервис", "url": "https://api.hh.ru/employers/4361919", "alternate_url": "https://hh.ru/employer/4361919", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/823067.png", "240": "https://hhcdn.ru/employer-logo/3733156.png", "90": "https://hhcdn.ru/employer-logo/3733155.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4361919", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Знание языков программирования/скриптов и умение писать простые программы/скрипты (Basic, VB Script, JScript, Bash, <highlighttext>Python</highlighttext> и т.п.) – как...", "responsibility": "Обеспечение бесперебойного функционирования локальной, межофисной и беспроводной вычислительной сети. Управление доступом, Интернет, ЛВС, Wi-Fi, подключение и отключение пользователей сети..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "112", "name": "Сетевой инженер"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "81094435", "premium": false, "name": "UI/UX Designer", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 34500, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-26T13:04:33+0300", "created_at": "2023-05-26T13:04:33+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81094435", "insider_interview": null, "url": "https://api.hh.ru/vacancies/81094435?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/81094435", "relations": [], "employer": {"id": "6164545", "name": "Fojin", "url": "https://api.hh.ru/employers/6164545", "alternate_url": "https://hh.ru/employer/6164545", "logo_urls": {"90": "https://hhcdn.ru/employer-logo/4278944.png", "240": "https://hhcdn.ru/employer-logo/4278945.png", "original": "https://hhcdn.ru/employer-logo-original/959606.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Есть коммерческий опыт работы веб-дизайнером от 1 года. Знаешь, как проектировать хороший UX интерфейсов, и знаком с современными тенденциями...", "responsibility": "Проектирование интерфейсов для веб, десктоп и мобильных продуктов. Ревью работ дизайнеров. Подготовка макетов для верстки. Адаптация макетов под разные форматы..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "34", "name": "Дизайнер, художник"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "81023382", "premium": false, "name": "Специалист VBA Excel , г. Краснодар (офис)", "department": null, "has_test": false, "response_letter_required": true, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": null, "to": 80000, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "Солнечная улица", "building": "15/5", "lat": 45.072777, "lng": 39.003152, "description": null, "raw": "Краснодар, Солнечная улица, 15/5", "metro": null, "metro_stations": [], "id": "10669334"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-25T12:16:35+0300", "created_at": "2023-05-25T12:16:35+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81023382", "insider_interview": null, "url": "https://api.hh.ru/vacancies/81023382?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/81023382", "relations": [], "employer": {"id": "49357", "name": "МАГНИТ, Розничная сеть", "url": "https://api.hh.ru/employers/49357", "alternate_url": "https://hh.ru/employer/49357", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/626117.jpg", "240": "https://hhcdn.ru/employer-logo/2945621.jpeg", "90": "https://hhcdn.ru/employer-logo/2945620.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=49357", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Аналитический склад ума. Умение работать в команде и решать задачи. Знание языка SQL, знание других языков (<highlighttext>Python</highlighttext>). Алгоритмизированный подход.", "responsibility": "Разрабатывать макросы VBA Excel, Access для работы с большими объёмами информации. Разрабатывать макросы VBA Excel для автоматизации формирование отчётов, расконсолидации..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "96", "name": "Программист, разработчик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80000092", "premium": false, "name": "Инженер по серверам", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 80000, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-24T13:33:44+0300", "created_at": "2023-05-24T13:33:44+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80000092", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80000092?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80000092", "relations": [], "employer": {"id": "2748", "name": "Ростелеком", "url": "https://api.hh.ru/employers/2748", "alternate_url": "https://hh.ru/employer/2748", "logo_urls": {"240": "https://hhcdn.ru/employer-logo/2812976.jpeg", "90": "https://hhcdn.ru/employer-logo/2812975.jpeg", "original": "https://hhcdn.ru/employer-logo-original/592930.jpg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2748", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт работы с Prometheus, Grafana, Zabbix. Опыт работы с различным серверным оборудованием. Опыт эксплуатации высоконагруженных систем. Базовые знания <highlighttext>Python</highlighttext>/Go...", "responsibility": "Запуск новых серверов. Установка и обслуживание ОС/Гипервизоры на серверах. Автоматизация управление серверной инфраструктурой. Ведение учета виртуальных машин, виртуальных коммутаторов..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "114", "name": "Системный инженер"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80935185", "premium": false, "name": "Android Developer", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 80500, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-24T10:45:44+0300", "created_at": "2023-05-24T10:45:44+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80935185", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80935185?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80935185", "relations": [], "employer": {"id": "6164545", "name": "Fojin", "url": "https://api.hh.ru/employers/6164545", "alternate_url": "https://hh.ru/employer/6164545", "logo_urls": {"90": "https://hhcdn.ru/employer-logo/4278944.png", "240": "https://hhcdn.ru/employer-logo/4278945.png", "original": "https://hhcdn.ru/employer-logo-original/959606.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Есть коммерческий опыт работки Android-приложений от 6 до 12 месяцев. Имел опыт работы с RxJava2/Coroutines, Retrofit. ", "responsibility": null}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "96", "name": "Программист, разработчик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "79227644", "premium": false, "name": "Ведущий бизнес-аналитик отдела бизнес-анализа логистики", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": null, "to": 67000, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": null, "street": null, "building": null, "lat": 0.0, "lng": 0.0, "description": null, "raw": "г. Краснодар улица Солнечная 15/5", "metro": null, "metro_stations": [], "id": "228786"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-23T12:56:23+0300", "created_at": "2023-05-23T12:56:23+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79227644", "insider_interview": null, "url": "https://api.hh.ru/vacancies/79227644?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/79227644", "relations": [], "employer": {"id": "49357", "name": "МАГНИТ, Розничная сеть", "url": "https://api.hh.ru/employers/49357", "alternate_url": "https://hh.ru/employer/49357", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/626117.jpg", "240": "https://hhcdn.ru/employer-logo/2945621.jpeg", "90": "https://hhcdn.ru/employer-logo/2945620.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=49357", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "...расчетов на базе Excel. Знание SQL, навыки работы с access и опыт написание макросов на VBAбудут преимуществом. Знание <highlighttext>python</highlighttext> (желательно).", "responsibility": "Прогнозирование ресурсов транспорта. Автоматизация моделей прогнозирования. Ведение отчетности по вверенному участку."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "150", "name": "Бизнес-аналитик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80672130", "premium": false, "name": "Node.js Developer", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 45000, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-18T16:22:45+0300", "created_at": "2023-05-18T16:22:45+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80672130", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80672130?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80672130", "relations": [], "employer": {"id": "6164545", "name": "Fojin", "url": "https://api.hh.ru/employers/6164545", "alternate_url": "https://hh.ru/employer/6164545", "logo_urls": {"90": "https://hhcdn.ru/employer-logo/4278944.png", "240": "https://hhcdn.ru/employer-logo/4278945.png", "original": "https://hhcdn.ru/employer-logo-original/959606.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "У тебя есть опыт работы с Node.js/Nest.js/Express.js. Твой уровень английского от Pre-Intermediate (В1). Знаком с HTML...", "responsibility": "Немного знаком с Typescript."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "96", "name": "Программист, разработчик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "74369182", "premium": false, "name": "Системный администратор Windows", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 80000, "to": 150000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "микрорайон Юбилейный, проспект Чекистов", "building": "34/1", "lat": 45.031553, "lng": 38.917057, "description": null, "raw": "Краснодар, микрорайон Юбилейный, проспект Чекистов, 34/1", "metro": null, "metro_stations": [], "id": "4653874"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-16T15:37:41+0300", "created_at": "2023-05-16T15:37:41+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=74369182", "insider_interview": null, "url": "https://api.hh.ru/vacancies/74369182?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/74369182", "relations": [], "employer": {"id": "2222250", "name": "Сеть аптек Апрель", "url": "https://api.hh.ru/employers/2222250", "alternate_url": "https://hh.ru/employer/2222250", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/1076777.png", "240": "https://hhcdn.ru/employer-logo/5927738.png", "90": "https://hhcdn.ru/employer-logo/5927737.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2222250", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Наличие навыков по сопровождению и администрированию систем мониторинга. Знание PowerShell, VBS, умение составлять скрипты автоматизации на <highlighttext>Python</highlighttext>/Perl. ", "responsibility": "Администрирование серверных ОС Windows Server 2019, 2016, 2012 R2 (IIS, AD, DNS, DHCP). Мониторинг доступности, производительности и формирование планов..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "113", "name": "Системный администратор"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "79233486", "premium": false, "name": "Младший аналитик (взыскание)", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": null, "to": 85000, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-15T10:53:52+0300", "created_at": "2023-05-15T10:53:52+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79233486", "insider_interview": null, "url": "https://api.hh.ru/vacancies/79233486?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/79233486", "relations": [], "employer": {"id": "1245158", "name": "МФК Саммит", "url": "https://api.hh.ru/employers/1245158", "alternate_url": "https://hh.ru/employer/1245158", "logo_urls": {"90": "https://hhcdn.ru/employer-logo/3244532.png", "240": "https://hhcdn.ru/employer-logo/3244533.png", "original": "https://hhcdn.ru/employer-logo-original/700854.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1245158", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Умеет работать с большими массивами данных. Имеет опыт работы аналитиком (или построения отчетности). Знание <highlighttext>Python</highlighttext> / R / loginom будет являться преимуществом.", "responsibility": "Формировать периодическую (дневную, недельную и месячную) отчетность в Excel, PowerPoint и PowerBi. Вести статистику и плановую отчетность по отделу взыскания. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "10", "name": "Аналитик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80234551", "premium": false, "name": "Automation QA Engineer (Java/Python)", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 56000, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-10T12:42:12+0300", "created_at": "2023-05-10T12:42:12+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80234551", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80234551?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80234551", "relations": [], "employer": {"id": "6164545", "name": "Fojin", "url": "https://api.hh.ru/employers/6164545", "alternate_url": "https://hh.ru/employer/6164545", "logo_urls": {"90": "https://hhcdn.ru/employer-logo/4278944.png", "240": "https://hhcdn.ru/employer-logo/4278945.png", "original": "https://hhcdn.ru/employer-logo-original/959606.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Коммерческий опыт работы в автотестировании от 6 мес. Умение проводить различные виды ручного тестирования. Понимание клиент-серверной архитектуры, REST. ", "responsibility": "Организация и проведение различных видов автоматизированного тестирования на Java или <highlighttext>Python</highlighttext>. Анализ результатов, полученных во время проведения тестирования, составление отчетности."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "124", "name": "Тестировщик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80200400", "premium": false, "name": "Программист встраиваемых систем", "department": {"id": "68587-68587-manager", "name": "Алабуга. Проектный менеджмент"}, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 200000, "to": null, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-09T17:03:46+0300", "created_at": "2023-05-09T17:03:46+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80200400", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80200400?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80200400", "relations": [], "employer": {"id": "68587", "name": "Алабуга, ОЭЗ ППТ", "url": "https://api.hh.ru/employers/68587", "alternate_url": "https://hh.ru/employer/68587", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/481384.jpg", "240": "https://hhcdn.ru/employer-logo/2367389.jpeg", "90": "https://hhcdn.ru/employer-logo/2367388.jpeg"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=68587", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт разработки систем управления в MATLAB/SIMULINK. Опыт владения <highlighttext>Python</highlighttext>. Дополнительные знания в областях сотовой связи, систем с использованием ГЛОНАСС...", "responsibility": "Разрабатывать и поддерживать код для микроконтроллеров STM32, Texas Instruments C2000, AVR на С\\С++. Разрабатывать и поддерживать код..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "96", "name": "Программист, разработчик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "79015287", "premium": false, "name": "Ночной специалист службы поддержки с техническими знаниями (Браузер)", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 18000, "to": 45000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-06T19:13:22+0300", "created_at": "2023-05-06T19:13:22+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79015287", "insider_interview": null, "url": "https://api.hh.ru/vacancies/79015287?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/79015287", "relations": [], "employer": {"id": "9498112", "name": "Яндекс Крауд", "url": "https://api.hh.ru/employers/9498112", "alternate_url": "https://hh.ru/employer/9498112", "logo_urls": null, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498112", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Умеете читать языки JavaScript, HTML и <highlighttext>Python</highlighttext>. Имеете высшее или неоконченное высшее образование (техническое будет плюсом). Помогали людям онлайн. ", "responsibility": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию разработчикам и..."}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "121", "name": "Специалист технической поддержки"}], "accept_incomplete_resumes": false, "experience": {"id": "noExperience", "name": "Нет опыта"}, "employment": {"id": "part", "name": "Частичная занятость"}}, {"id": "80164170", "premium": false, "name": "Инженер-программист", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 55000, "to": 66000, "currency": "RUR", "gross": true}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "улица Демуса", "building": "11", "lat": 45.049953, "lng": 39.095624, "description": null, "raw": "Краснодар, улица Демуса, 11", "metro": null, "metro_stations": [], "id": "6494814"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-05T16:26:46+0300", "created_at": "2023-05-05T16:26:46+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80164170", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80164170?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80164170", "relations": [], "employer": {"id": "952073", "name": "Завод ЭЛЕКТРОСЕВКАВМОНТАЖИНДУСТРИЯ", "url": "https://api.hh.ru/employers/952073", "alternate_url": "https://hh.ru/employer/952073", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/772239.png", "90": "https://hhcdn.ru/employer-logo/3529847.png", "240": "https://hhcdn.ru/employer-logo/3529848.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=952073", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "...CentOS, знание основных репозиториев *.nix и навыки объектового программирования в <highlighttext>Python</highlighttext>, Perl, Java и ASP.NET, опыт поднятия web-серверов c...", "responsibility": "Диагностика инцидентов на web-серверах Общества. Аадминистрирование\\изменение конфигурации сайта Общества и оперативное устранение внешних неисправностей внешних сетевых ресурсов Общества. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "96", "name": "Программист, разработчик"}], "accept_incomplete_resumes": false, "experience": {"id": "between1And3", "name": "От 1 года до 3 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "80085448", "premium": false, "name": "Педагог курсов по программированию в частную школу", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 30000, "to": 60000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": {"city": "Краснодар", "street": "Северная улица", "building": "405", "lat": 45.037451, "lng": 38.995678, "description": null, "raw": "Краснодар, Северная улица, 405", "metro": null, "metro_stations": [], "id": "3430756"}, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-04T10:04:24+0300", "created_at": "2023-05-04T10:04:24+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80085448", "insider_interview": null, "url": "https://api.hh.ru/vacancies/80085448?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/80085448", "relations": [], "employer": {"id": "3110349", "name": "Алгоритмика::Краснодар (ООО Кидстартер)", "url": "https://api.hh.ru/employers/3110349", "alternate_url": "https://hh.ru/employer/3110349", "logo_urls": {"original": "https://hhcdn.ru/employer-logo-original/1017413.png", "90": "https://hhcdn.ru/employer-logo/5690420.png", "240": "https://hhcdn.ru/employer-logo/5690421.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3110349", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Опыт работы с детьми будет огромным плюсом (репетиторство, работа вожатым, преподавание в группах). Желание учиться. Быть в теме IT - сферы. ", "responsibility": null}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": true, "professional_roles": [{"id": "132", "name": "Учитель, преподаватель, педагог"}], "accept_incomplete_resumes": false, "experience": {"id": "noExperience", "name": "Нет опыта"}, "employment": {"id": "full", "name": "Полная занятость"}}, {"id": "79973268", "premium": false, "name": "Руководитель IT-проектов", "department": null, "has_test": false, "response_letter_required": false, "area": {"id": "53", "name": "Краснодар", "url": "https://api.hh.ru/areas/53"}, "salary": {"from": 80000, "to": 150000, "currency": "RUR", "gross": false}, "type": {"id": "open", "name": "Открытая"}, "address": null, "response_url": null, "sort_point_distance": null, "published_at": "2023-05-02T10:25:20+0300", "created_at": "2023-05-02T10:25:20+0300", "archived": false, "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79973268", "insider_interview": null, "url": "https://api.hh.ru/vacancies/79973268?host=hh.ru", "adv_response_url": null, "alternate_url": "https://hh.ru/vacancy/79973268", "relations": [], "employer": {"id": "3202769", "name": "ДЖАСТ ВОРК", "url": "https://api.hh.ru/employers/3202769", "alternate_url": "https://hh.ru/employer/3202769", "logo_urls": {"240": "https://hhcdn.ru/employer-logo/2398998.png", "90": "https://hhcdn.ru/employer-logo/2398997.png", "original": "https://hhcdn.ru/employer-logo-original/489311.png"}, "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3202769", "accredited_it_employer": false, "trusted": true}, "snippet": {"requirement": "Высокий уровень культуры командного взаимодействия и коммуникации. Чтобы справляться, нужно уметь планировать собственный график работы, уметь вести документацию проектов, иметь...", "responsibility": "Управлять ходом проекта от сбора требований до внедрения. Составлять и актуализировать планы проектов. Постоянно анализировать и управлять рисками проектов. "}, "contacts": null, "schedule": null, "working_days": [], "working_time_intervals": [], "working_time_modes": [], "accept_temporary": false, "professional_roles": [{"id": "107", "name": "Руководитель проектов"}], "accept_incomplete_resumes": false, "experience": {"id": "between3And6", "name": "От 3 до 6 лет"}, "employment": {"id": "full", "name": "Полная занятость"}}]
+[
+  {
+    "id": "80194483",
+    "premium": false,
+    "name": "Python / Django Developer",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": null,
+      "to": 140000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "микрорайон Черемушки, Старокубанская улица",
+      "building": "114",
+      "lat": 45.017996,
+      "lng": 39.049047,
+      "description": null,
+      "raw": "Краснодар, микрорайон Черемушки, Старокубанская улица, 114",
+      "metro": null,
+      "metro_stations": [],
+      "id": "462036"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-29T11:18:37+0300",
+    "created_at": "2023-05-29T11:18:37+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80194483",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80194483?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80194483",
+    "relations": [],
+    "employer": {
+      "id": "1729433",
+      "name": "Диджитал Сектор",
+      "url": "https://api.hh.ru/employers/1729433",
+      "alternate_url": "https://hh.ru/employer/1729433",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/244686.png",
+        "90": "https://hhcdn.ru/employer-logo/1421417.png",
+        "240": "https://hhcdn.ru/employer-logo/1421418.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1729433",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Знать ООП и структур данных <highlighttext>Python</highlighttext>, асинхронность, gil, мультипроцессинг / мультитрединг. Уверенно работать с Django, Django REST, FastApi. Знать что такое...",
+      "responsibility": "Разрабатывать компоненты, модули, сайты, скрипты и api на <highlighttext>Python</highlighttext>. Иметь желание помогать коллегам разбираться с проблемами в разработке. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "67115536",
+    "premium": false,
+    "name": "Middle Python разработчик (Django)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 160000,
+      "to": 240000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "Центральный внутригородской округ, микрорайон Центральный, улица Будённого",
+      "building": "182",
+      "lat": 45.034693,
+      "lng": 38.979589,
+      "description": null,
+      "raw": "Краснодар, Центральный внутригородской округ, микрорайон Центральный, улица Будённого, 182",
+      "metro": null,
+      "metro_stations": [],
+      "id": "620838"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-29T08:19:36+0300",
+    "created_at": "2023-05-29T08:19:36+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=67115536",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/67115536?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/67115536",
+    "relations": [],
+    "employer": {
+      "id": "1545815",
+      "name": "МедРокет",
+      "url": "https://api.hh.ru/employers/1545815",
+      "alternate_url": "https://hh.ru/employer/1545815",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/5535105.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/5535104.jpeg",
+        "original": "https://hhcdn.ru/employer-logo-original/978567.jpg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1545815",
+      "accredited_it_employer": true,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Возможность напрямую влиять на продукт и принимать технические решения. Опыт разработки на <highlighttext>Python</highlighttext>3. Опыт работы с Django. ",
+      "responsibility": "Приветствуем вовлеченность разработчиков в бизнес, а не просто написание кода по ТЗ. Ценим готовность брать ответственность и делиться опытом с..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81058820",
+    "premium": false,
+    "name": "Разработчик Python",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 50000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "улица Селезнёва",
+      "building": "203",
+      "lat": 45.013721,
+      "lng": 39.055676,
+      "description": null,
+      "raw": "Краснодар, улица Селезнёва, 203",
+      "metro": null,
+      "metro_stations": [],
+      "id": "12010675"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-25T19:13:07+0300",
+    "created_at": "2023-05-25T19:13:07+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81058820",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81058820?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81058820",
+    "relations": [],
+    "employer": {
+      "id": "9294950",
+      "name": "Кортис Технологии",
+      "url": "https://api.hh.ru/employers/9294950",
+      "alternate_url": "https://hh.ru/employer/9294950",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/1021857.png",
+        "240": "https://hhcdn.ru/employer-logo/5708197.png",
+        "90": "https://hhcdn.ru/employer-logo/5708196.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9294950",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Уверенное владение <highlighttext>Python</highlighttext> 2. Понимание XML, json. Умение разбираться в коде. Хорошее знание SQL. Git. Ответственность. Стремление развиваться. Будет плюсом:",
+      "responsibility": "Занимаемся разработкой и сопровождением проектов в сфере медицины. Нам необходим программист для разработки новых проектов и поддержки старых. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81209050",
+    "premium": false,
+    "name": "Senior Python-разработчик",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 200000,
+      "to": 280000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-29T09:10:36+0300",
+    "created_at": "2023-05-29T09:10:36+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81209050",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81209050?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81209050",
+    "relations": [],
+    "employer": {
+      "id": "3202769",
+      "name": "ДЖАСТ ВОРК",
+      "url": "https://api.hh.ru/employers/3202769",
+      "alternate_url": "https://hh.ru/employer/3202769",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/2398998.png",
+        "90": "https://hhcdn.ru/employer-logo/2398997.png",
+        "original": "https://hhcdn.ru/employer-logo-original/489311.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3202769",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Предлагаем опытным разработчикам присоединиться к нашей команде. От вас только продемонстрировать уверенное владение <highlighttext>Python</highlighttext>, Django и DRF от 3-х...",
+      "responsibility": null
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between3And6",
+      "name": "От 3 до 6 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80938212",
+    "premium": false,
+    "name": "Python Developer",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": true,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 50000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-24T11:15:03+0300",
+    "created_at": "2023-05-24T11:15:03+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80938212",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80938212?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80938212",
+    "relations": [],
+    "employer": {
+      "id": "9403938",
+      "name": "Ельмеев Данил Георгиевич",
+      "url": "https://api.hh.ru/employers/9403938",
+      "alternate_url": "https://hh.ru/employer/9403938",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/1039336.jpg",
+        "240": "https://hhcdn.ru/employer-logo/5778101.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/5778100.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9403938",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт работы с телеграмм ботами. - Опыт работы с Api. - Опыт разработки высоконагруженых телеграм ботов обслуживающих 5+ тысяч пользователей одновременно. - ",
+      "responsibility": "Работа предстоит в основном с телеграмм ботами и веб апп телеграм. Их нужно будет обслуживать, создавать и исправлять. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [
+      {
+        "id": "from_four_to_six_hours_in_a_day",
+        "name": "Можно работать сменами по 4–6 часов в день"
+      }
+    ],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "69529590",
+    "premium": false,
+    "name": "Senior Python разработчик (Django)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 280000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "Центральный внутригородской округ, микрорайон Центральный, улица Будённого",
+      "building": "182",
+      "lat": 45.034693,
+      "lng": 38.979589,
+      "description": null,
+      "raw": "Краснодар, Центральный внутригородской округ, микрорайон Центральный, улица Будённого, 182",
+      "metro": null,
+      "metro_stations": [],
+      "id": "620838"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-16T08:28:13+0300",
+    "created_at": "2023-05-16T08:28:13+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69529590",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/69529590?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/69529590",
+    "relations": [],
+    "employer": {
+      "id": "1545815",
+      "name": "МедРокет",
+      "url": "https://api.hh.ru/employers/1545815",
+      "alternate_url": "https://hh.ru/employer/1545815",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/5535105.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/5535104.jpeg",
+        "original": "https://hhcdn.ru/employer-logo-original/978567.jpg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1545815",
+      "accredited_it_employer": true,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Возможность напрямую влиять на продукт и принимать технические решения. Опыт разработки на <highlighttext>Python</highlighttext>3. Опыт работы с Django. ",
+      "responsibility": "Приветствуем вовлеченность разработчиков в бизнес, а не просто написание кода по ТЗ. Ценим готовность брать ответственность и делиться опытом с..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between3And6",
+      "name": "От 3 до 6 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80526061",
+    "premium": false,
+    "name": "Преподаватель программирования для детей (Python, Scratch, Unity, Minecraft, Roblox)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": null,
+      "to": 100000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-16T17:26:46+0300",
+    "created_at": "2023-05-16T17:26:46+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80526061",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80526061?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80526061",
+    "relations": [],
+    "employer": {
+      "id": "1122462",
+      "name": "Skyeng",
+      "url": "https://api.hh.ru/employers/1122462",
+      "alternate_url": "https://hh.ru/employer/1122462",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/3420386.png",
+        "90": "https://hhcdn.ru/employer-logo/3420385.png",
+        "original": "https://hhcdn.ru/employer-logo-original/744856.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1122462",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт преподавания детям и опыт преподавания программирования. Желательно профильное образование: высшее или в процессе получения. Наличие ноутбука или ПК и...",
+      "responsibility": "Возможность преподавать с комфортом прямо из дома. Удобная платформа для занятий с готовыми учебными материалами, видеосвязью и автоматической проверкой заданий. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [
+      {
+        "id": "from_four_to_six_hours_in_a_day",
+        "name": "Можно работать сменами по 4–6 часов в день"
+      }
+    ],
+    "working_time_modes": [
+      {
+        "id": "start_after_sixteen",
+        "name": "Можно начинать работать после 16:00"
+      }
+    ],
+    "accept_temporary": true,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": true,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "part",
+      "name": "Частичная занятость"
+    }
+  },
+  {
+    "id": "81277269",
+    "premium": false,
+    "name": "Программист Backend",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 50000,
+      "to": 70000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "улица Красных Партизан",
+      "building": "1/4к9",
+      "lat": 45.08166896387351,
+      "lng": 38.898720915343944,
+      "description": null,
+      "raw": "Краснодар, улица Красных Партизан, 1/4к9",
+      "metro": null,
+      "metro_stations": [],
+      "id": "13326418"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-30T08:56:25+0300",
+    "created_at": "2023-05-30T08:56:25+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81277269",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81277269?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81277269",
+    "relations": [],
+    "employer": {
+      "id": "9434158",
+      "name": "ПАРТНЕР",
+      "url": "https://api.hh.ru/employers/9434158",
+      "alternate_url": "https://hh.ru/employer/9434158",
+      "logo_urls": null,
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9434158",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Знание современных тенденций web-разработки. Backend направление. <highlighttext>Python</highlighttext> и другие языки программирования. Командная работа.",
+      "responsibility": "Разработка/модернизация crm системы, сайтов, интернет магазинов, ios/android приложений. Поддержание работоспособности сайтов компании."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80847073",
+    "premium": false,
+    "name": "Системный администратор веб-серверов Linux",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 60000,
+      "to": 70000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "улица Монтажников",
+      "building": "1",
+      "lat": 45.059103,
+      "lng": 38.962799,
+      "description": null,
+      "raw": "Краснодар, улица Монтажников, 1",
+      "metro": null,
+      "metro_stations": [],
+      "id": "181800"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-31T17:49:29+0300",
+    "created_at": "2023-05-31T17:49:29+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80847073",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80847073?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80847073",
+    "relations": [],
+    "employer": {
+      "id": "1079167",
+      "name": "Вебасист Краснодар",
+      "url": "https://api.hh.ru/employers/1079167",
+      "alternate_url": "https://hh.ru/employer/1079167",
+      "logo_urls": {
+        "90": "https://hhcdn.ru/employer-logo/746657.jpeg",
+        "240": "https://hhcdn.ru/employer-logo/746658.jpeg",
+        "original": "https://hhcdn.ru/employer-logo-original/81506.jpg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1079167",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "...drbd, pacemaker, xen, keepalived). Знание системы мониторинга zabbix. Знание и навыки программирования на bash, <highlighttext>python</highlighttext>, perl и php. Знание sql.",
+      "responsibility": "Администрирование серверного парка для крупного интернет-проекта. Мониторинг производительности и работоспособности веб-сервисов компании. Разработка архитектуры серверного кластера и внедрение..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "113",
+        "name": "Системный администратор"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between3And6",
+      "name": "От 3 до 6 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81344030",
+    "premium": false,
+    "name": "Стажер по направлению Аналитики",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 17500,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-31T10:01:20+0300",
+    "created_at": "2023-05-31T10:01:20+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81344030",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81344030?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81344030",
+    "relations": [],
+    "employer": {
+      "id": "906391",
+      "name": "FutureToday",
+      "url": "https://api.hh.ru/employers/906391",
+      "alternate_url": "https://hh.ru/employer/906391",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/114684.jpg",
+        "90": "https://hhcdn.ru/employer-logo/602759.jpeg",
+        "240": "https://hhcdn.ru/employer-logo/602760.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=906391",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "...и специальных программ для работы с данными: Power BI, SQL, VBA, <highlighttext>Python</highlighttext> - будут большим преимуществом). — уверенный пользователь ПК, офисных программ.",
+      "responsibility": "сбор, анализ и актуализация данных. — выявление закономерностей и автоматизация процессов. — работа с большими массивами данных. — создание аналитических отчетов и дашбордов."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "40",
+        "name": "Другое"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "probation",
+      "name": "Стажировка"
+    }
+  },
+  {
+    "id": "80013279",
+    "premium": false,
+    "name": "Программист (тьютор)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 28000,
+      "to": 56000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "Восточно-Кругликовская улица",
+      "building": "26",
+      "lat": 45.049029,
+      "lng": 39.028071,
+      "description": null,
+      "raw": "Краснодар, Восточно-Кругликовская улица, 26",
+      "metro": null,
+      "metro_stations": [],
+      "id": "12572643"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-29T20:51:40+0300",
+    "created_at": "2023-05-29T20:51:40+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80013279",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80013279?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80013279",
+    "relations": [],
+    "employer": {
+      "id": "9322295",
+      "name": "KIBERone (ООО Лаборатория Инноваций)",
+      "url": "https://api.hh.ru/employers/9322295",
+      "alternate_url": "https://hh.ru/employer/9322295",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/1024448.png",
+        "240": "https://hhcdn.ru/employer-logo/5718561.png",
+        "90": "https://hhcdn.ru/employer-logo/5718560.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9322295",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Полезный опыт от международной компании. Транслирование программ КиберШколы по методическим пособиям и передача практического опыта для нового IT-поколения от...",
+      "responsibility": "Методические пособия с подробной инструкцией на каждый урок. Участие в промо-мероприятиях и конференциях."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [
+      {
+        "id": "only_saturday_and_sunday",
+        "name": "Работа только по сб и вс"
+      }
+    ],
+    "working_time_intervals": [
+      {
+        "id": "from_four_to_six_hours_in_a_day",
+        "name": "Можно работать сменами по 4–6 часов в день"
+      }
+    ],
+    "working_time_modes": [
+      {
+        "id": "start_after_sixteen",
+        "name": "Можно начинать работать после 16:00"
+      }
+    ],
+    "accept_temporary": true,
+    "professional_roles": [
+      {
+        "id": "132",
+        "name": "Учитель, преподаватель, педагог"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "part",
+      "name": "Частичная занятость"
+    }
+  },
+  {
+    "id": "80516419",
+    "premium": false,
+    "name": "Системный инженер",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 65000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "Кузнечная улица",
+      "building": "6",
+      "lat": 45.036394,
+      "lng": 38.977694,
+      "description": null,
+      "raw": "Краснодар, Кузнечная улица, 6",
+      "metro": null,
+      "metro_stations": [],
+      "id": "4525136"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-31T15:38:09+0300",
+    "created_at": "2023-05-31T15:38:09+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80516419",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80516419?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80516419",
+    "relations": [],
+    "employer": {
+      "id": "887248",
+      "name": "Инжиниринговый Центр РЕГИОНАЛЬНЫЕ СИСТЕМЫ",
+      "url": "https://api.hh.ru/employers/887248",
+      "alternate_url": "https://hh.ru/employer/887248",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/950598.png",
+        "240": "https://hhcdn.ru/employer-logo/4242929.png",
+        "90": "https://hhcdn.ru/employer-logo/4242928.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=887248",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт написания скриптов Powershell, <highlighttext>Python</highlighttext>, bash. Опыт работы с другими системами защиты информации (FW, IPS, DLP и пр.). ",
+      "responsibility": "Участие в пуско-наладочных работах, испытаниях, настройке ИТ-оборудования и средств ИБ. Разработка документации по итогам внедрения. Участие в проектировании..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "114",
+        "name": "Системный инженер"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80497112",
+    "premium": false,
+    "name": "Менеджер ИТ проектов (в офис)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 40000,
+      "to": 90000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "улица Дзержинского",
+      "building": "80/1",
+      "lat": 45.091513,
+      "lng": 38.977783,
+      "description": null,
+      "raw": "Краснодар, улица Дзержинского, 80/1",
+      "metro": null,
+      "metro_stations": [],
+      "id": "522187"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-31T12:34:32+0300",
+    "created_at": "2023-05-31T12:34:32+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80497112",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80497112?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80497112",
+    "relations": [],
+    "employer": {
+      "id": "1891946",
+      "name": "КУБАНЬ-НОВОСТРОЙ",
+      "url": "https://api.hh.ru/employers/1891946",
+      "alternate_url": "https://hh.ru/employer/1891946",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/952683.jpeg",
+        "240": "https://hhcdn.ru/employer-logo/4251265.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/4251264.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1891946",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Умение работать в режиме многозадачности. Внимательность, коммуникабельность, умение анализировать данные для принятия решений. Умение ставить ТЗ. Аналитические способности и умение...",
+      "responsibility": "Поиск и парсинг баз данных. Написание скриптов на <highlighttext>python</highlighttext>. Написание ТЗ для разработчиков. Своевременная оплата сервисов, выставление счетов. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": true,
+    "professional_roles": [
+      {
+        "id": "73",
+        "name": "Менеджер продукта"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81307071",
+    "premium": false,
+    "name": "Специалист технической поддержки",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 45000,
+      "to": 49500,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "микрорайон Камвольно-суконный Комбинат, Молодёжная улица",
+      "building": "25",
+      "lat": 45.028311,
+      "lng": 39.071181,
+      "description": null,
+      "raw": "Краснодар, микрорайон Камвольно-суконный Комбинат, Молодёжная улица, 25",
+      "metro": null,
+      "metro_stations": [],
+      "id": "813705"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-30T14:05:45+0300",
+    "created_at": "2023-05-30T14:05:45+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81307071",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81307071?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81307071",
+    "relations": [],
+    "employer": {
+      "id": "2888",
+      "name": "DSSL",
+      "url": "https://api.hh.ru/employers/2888",
+      "alternate_url": "https://hh.ru/employer/2888",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/232219.bmp",
+        "240": "https://hhcdn.ru/employer-logo/546156.png",
+        "90": "https://hhcdn.ru/employer-logo/546155.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2888",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "...с сетевым оборудованием. Приветствуются навыки настройки сетевого оборудования и систем видеонаблюдения. Навыки программирования на <highlighttext>Python</highlighttext> дадут дополнительные возможности карьерного роста.",
+      "responsibility": "Поддержка клиентов компании по телефону и электронной почте в технических вопросах функционирования систем цифрового видеонаблюдения производства компании DSSL. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "121",
+        "name": "Специалист технической поддержки"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "78897008",
+    "premium": false,
+    "name": "Сетевой администратор",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 80000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "улица Красных Партизан",
+      "building": "393",
+      "lat": 45.052322,
+      "lng": 38.951481,
+      "description": null,
+      "raw": "Краснодар, улица Красных Партизан, 393",
+      "metro": null,
+      "metro_stations": [],
+      "id": "5631050"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-31T09:13:37+0300",
+    "created_at": "2023-05-31T09:13:37+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78897008",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/78897008?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/78897008",
+    "relations": [],
+    "employer": {
+      "id": "4361919",
+      "name": "РТК-Сервис",
+      "url": "https://api.hh.ru/employers/4361919",
+      "alternate_url": "https://hh.ru/employer/4361919",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/823067.png",
+        "240": "https://hhcdn.ru/employer-logo/3733156.png",
+        "90": "https://hhcdn.ru/employer-logo/3733155.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4361919",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Знание языков программирования/скриптов и умение писать простые программы/скрипты (Basic, VB Script, JScript, Bash, <highlighttext>Python</highlighttext> и т.п.) – как...",
+      "responsibility": "Обеспечение бесперебойного функционирования локальной, межофисной и беспроводной вычислительной сети. Управление доступом, Интернет, ЛВС, Wi-Fi, подключение и отключение пользователей сети..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "112",
+        "name": "Сетевой инженер"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "77758081",
+    "premium": false,
+    "name": "Эксперт по эксплуатации CS&PS Core и VAS платформ",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 80000,
+      "to": 93000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "Морская улица",
+      "building": "54/2",
+      "lat": 45.056683,
+      "lng": 38.967812,
+      "description": null,
+      "raw": "Краснодар, Морская улица, 54/2",
+      "metro": null,
+      "metro_stations": [],
+      "id": "3965969"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-30T16:58:31+0300",
+    "created_at": "2023-05-30T16:58:31+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77758081",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/77758081?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/77758081",
+    "relations": [],
+    "employer": {
+      "id": "3776",
+      "name": "МТС",
+      "url": "https://api.hh.ru/employers/3776",
+      "alternate_url": "https://hh.ru/employer/3776",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/1077164.png",
+        "240": "https://hhcdn.ru/employer-logo/5929286.png",
+        "90": "https://hhcdn.ru/employer-logo/5929285.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+      "accredited_it_employer": true,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Высшее образование в области телекоммуникаций, или в том числе студента выпускного курса с возможностью совмещать учебу с работой. ",
+      "responsibility": "Контролировать устранение аварийных ситуаций на сети. Контролировать работы по технической эксплуатации оборудования CS&PS Core, VAS платформ. Взаимодействовать с региональными..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "113",
+        "name": "Системный администратор"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "77078511",
+    "premium": false,
+    "name": "Специалист по сетевой безопасности (г. Ялта, Республика Крым)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 100000,
+      "to": 130000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-29T14:29:16+0300",
+    "created_at": "2023-05-29T14:29:16+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77078511",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/77078511?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/77078511",
+    "relations": [],
+    "employer": {
+      "id": "1659845",
+      "name": "Mriya Resort & SPA",
+      "url": "https://api.hh.ru/employers/1659845",
+      "alternate_url": "https://hh.ru/employer/1659845",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/1748039.jpeg",
+        "original": "https://hhcdn.ru/employer-logo-original/326422.jpg",
+        "90": "https://hhcdn.ru/employer-logo/1748038.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1659845",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт работы с сетевым оборудованием, МСЭ, NGFW (Cisco, CheckPoint, PaloAlto). Знание скриптовых языков программирования (powershell, <highlighttext>python</highlighttext>, etc) – будет преимуществом. ",
+      "responsibility": "Анализ состояния защищенности сетевой инфраструктуры. Внедрение, эксплуатация и развитие сетевых средств защиты информации. Контроль соблюдения нормативных и регламентирующих документов ИБ. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "116",
+        "name": "Специалист по информационной безопасности"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80200033",
+    "premium": false,
+    "name": "Программист C++ (Qt)",
+    "department": {
+      "id": "68587-68587-manager",
+      "name": "Алабуга. Проектный менеджмент"
+    },
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 200000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-09T16:16:19+0300",
+    "created_at": "2023-05-09T16:16:19+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80200033",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80200033?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80200033",
+    "relations": [],
+    "employer": {
+      "id": "68587",
+      "name": "Алабуга, ОЭЗ ППТ",
+      "url": "https://api.hh.ru/employers/68587",
+      "alternate_url": "https://hh.ru/employer/68587",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/481384.jpg",
+        "240": "https://hhcdn.ru/employer-logo/2367389.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/2367388.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=68587",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт в робототехнике, IoT. Опыт разработки систем управления. Владение <highlighttext>Python</highlighttext>. Дополнительные знания в областях сотовой связи, систем с использованием ГЛОНАСС...",
+      "responsibility": "Участвовать в разработке и сопровождении приложений на С++ во фреймворке Qt. Участвовать в проектировании и разработке архитектуры ПО. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between3And6",
+      "name": "От 3 до 6 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81080116",
+    "premium": false,
+    "name": "QA Engineer на проекты на JS и Python",
+    "department": {
+      "id": "68587-68587-abiz",
+      "name": "Алабуга. Департамент арендного бизнеса"
+    },
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 100000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-26T10:29:15+0300",
+    "created_at": "2023-05-26T10:29:15+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81080116",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81080116?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81080116",
+    "relations": [],
+    "employer": {
+      "id": "68587",
+      "name": "Алабуга, ОЭЗ ППТ",
+      "url": "https://api.hh.ru/employers/68587",
+      "alternate_url": "https://hh.ru/employer/68587",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/481384.jpg",
+        "240": "https://hhcdn.ru/employer-logo/2367389.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/2367388.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=68587",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт работы тестировщиком - от 2 лет. Опыт работы с Atlassian Jira, Confluence, Qase. Опыт написания тест кейсов. Опыт тестирования web...",
+      "responsibility": "Ручное и автоматизированное тестирование компонентов проекта. Внедрение новых инструментов и методик тестирования продукта. Разработка и поддержка тестовой документации в актуальном..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "124",
+        "name": "Тестировщик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81084275",
+    "premium": false,
+    "name": "Преподаватель в \"Инжинириум МГТУ им. Н.Э. Баумана\"",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 45000,
+      "to": 60000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "улица имени Героя Николая Шевелёва",
+      "building": "7",
+      "lat": 45.075979,
+      "lng": 39.038411,
+      "description": null,
+      "raw": "Краснодар, улица имени Героя Николая Шевелёва, 7",
+      "metro": null,
+      "metro_stations": [],
+      "id": "11974856"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-26T11:07:55+0300",
+    "created_at": "2023-05-26T11:07:55+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81084275",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81084275?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81084275",
+    "relations": [],
+    "employer": {
+      "id": "9283616",
+      "name": "Инжинириум МГТУ им. Н.Э. Баумана (ООО Инжинириум)",
+      "url": "https://api.hh.ru/employers/9283616",
+      "alternate_url": "https://hh.ru/employer/9283616",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/1019364.png",
+        "90": "https://hhcdn.ru/employer-logo/5698224.png",
+        "240": "https://hhcdn.ru/employer-logo/5698225.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9283616",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт преподавательской деятельности или опыт работы с детьми (работа в качестве репетитора, опыт работы в детских лагерях, педагогическая практика и...",
+      "responsibility": "Заблаговременная подготовка к проведению занятия (изучение методик, подготовка оборудования (конструкторы и компьютеры). Бережное отношение к вверенному оборудованию. Осуществление коммуникации и..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [
+      {
+        "id": "only_saturday_and_sunday",
+        "name": "Работа только по сб и вс"
+      }
+    ],
+    "working_time_intervals": [
+      {
+        "id": "from_four_to_six_hours_in_a_day",
+        "name": "Можно работать сменами по 4–6 часов в день"
+      }
+    ],
+    "working_time_modes": [
+      {
+        "id": "start_after_sixteen",
+        "name": "Можно начинать работать после 16:00"
+      }
+    ],
+    "accept_temporary": true,
+    "professional_roles": [
+      {
+        "id": "132",
+        "name": "Учитель, преподаватель, педагог"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81094435",
+    "premium": false,
+    "name": "UI/UX Designer",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 34500,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-26T13:04:33+0300",
+    "created_at": "2023-05-26T13:04:33+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81094435",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81094435?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81094435",
+    "relations": [],
+    "employer": {
+      "id": "6164545",
+      "name": "Fojin",
+      "url": "https://api.hh.ru/employers/6164545",
+      "alternate_url": "https://hh.ru/employer/6164545",
+      "logo_urls": {
+        "90": "https://hhcdn.ru/employer-logo/4278944.png",
+        "240": "https://hhcdn.ru/employer-logo/4278945.png",
+        "original": "https://hhcdn.ru/employer-logo-original/959606.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Есть коммерческий опыт работы веб-дизайнером от 1 года. Знаешь, как проектировать хороший UX интерфейсов, и знаком с современными тенденциями...",
+      "responsibility": "Проектирование интерфейсов для веб, десктоп и мобильных продуктов. Ревью работ дизайнеров. Подготовка макетов для верстки. Адаптация макетов под разные форматы..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "34",
+        "name": "Дизайнер, художник"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "81023382",
+    "premium": false,
+    "name": "Специалист VBA Excel , г. Краснодар (офис)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": true,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": null,
+      "to": 80000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "Солнечная улица",
+      "building": "15/5",
+      "lat": 45.072777,
+      "lng": 39.003152,
+      "description": null,
+      "raw": "Краснодар, Солнечная улица, 15/5",
+      "metro": null,
+      "metro_stations": [],
+      "id": "10669334"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-25T12:16:35+0300",
+    "created_at": "2023-05-25T12:16:35+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=81023382",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/81023382?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/81023382",
+    "relations": [],
+    "employer": {
+      "id": "49357",
+      "name": "МАГНИТ, Розничная сеть",
+      "url": "https://api.hh.ru/employers/49357",
+      "alternate_url": "https://hh.ru/employer/49357",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/626117.jpg",
+        "240": "https://hhcdn.ru/employer-logo/2945621.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/2945620.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=49357",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Аналитический склад ума. Умение работать в команде и решать задачи. Знание языка SQL, знание других языков (<highlighttext>Python</highlighttext>). Алгоритмизированный подход.",
+      "responsibility": "Разрабатывать макросы VBA Excel, Access для работы с большими объёмами информации. Разрабатывать макросы VBA Excel для автоматизации формирование отчётов, расконсолидации..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80000092",
+    "premium": false,
+    "name": "Инженер по серверам",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 80000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-24T13:33:44+0300",
+    "created_at": "2023-05-24T13:33:44+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80000092",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80000092?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80000092",
+    "relations": [],
+    "employer": {
+      "id": "2748",
+      "name": "Ростелеком",
+      "url": "https://api.hh.ru/employers/2748",
+      "alternate_url": "https://hh.ru/employer/2748",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/2812976.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/2812975.jpeg",
+        "original": "https://hhcdn.ru/employer-logo-original/592930.jpg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2748",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт работы с Prometheus, Grafana, Zabbix. Опыт работы с различным серверным оборудованием. Опыт эксплуатации высоконагруженных систем. Базовые знания <highlighttext>Python</highlighttext>/Go...",
+      "responsibility": "Запуск новых серверов. Установка и обслуживание ОС/Гипервизоры на серверах. Автоматизация управление серверной инфраструктурой. Ведение учета виртуальных машин, виртуальных коммутаторов..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "114",
+        "name": "Системный инженер"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80935185",
+    "premium": false,
+    "name": "Android Developer",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 80500,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-24T10:45:44+0300",
+    "created_at": "2023-05-24T10:45:44+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80935185",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80935185?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80935185",
+    "relations": [],
+    "employer": {
+      "id": "6164545",
+      "name": "Fojin",
+      "url": "https://api.hh.ru/employers/6164545",
+      "alternate_url": "https://hh.ru/employer/6164545",
+      "logo_urls": {
+        "90": "https://hhcdn.ru/employer-logo/4278944.png",
+        "240": "https://hhcdn.ru/employer-logo/4278945.png",
+        "original": "https://hhcdn.ru/employer-logo-original/959606.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Есть коммерческий опыт работки Android-приложений от 6 до 12 месяцев. Имел опыт работы с RxJava2/Coroutines, Retrofit. ",
+      "responsibility": null
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "79227644",
+    "premium": false,
+    "name": "Ведущий бизнес-аналитик отдела бизнес-анализа логистики",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": null,
+      "to": 67000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": null,
+      "street": null,
+      "building": null,
+      "lat": 0.0,
+      "lng": 0.0,
+      "description": null,
+      "raw": "г. Краснодар улица Солнечная 15/5",
+      "metro": null,
+      "metro_stations": [],
+      "id": "228786"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-23T12:56:23+0300",
+    "created_at": "2023-05-23T12:56:23+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79227644",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/79227644?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/79227644",
+    "relations": [],
+    "employer": {
+      "id": "49357",
+      "name": "МАГНИТ, Розничная сеть",
+      "url": "https://api.hh.ru/employers/49357",
+      "alternate_url": "https://hh.ru/employer/49357",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/626117.jpg",
+        "240": "https://hhcdn.ru/employer-logo/2945621.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/2945620.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=49357",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "...расчетов на базе Excel. Знание SQL, навыки работы с access и опыт написание макросов на VBAбудут преимуществом. Знание <highlighttext>python</highlighttext> (желательно).",
+      "responsibility": "Прогнозирование ресурсов транспорта. Автоматизация моделей прогнозирования. Ведение отчетности по вверенному участку."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "150",
+        "name": "Бизнес-аналитик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80672130",
+    "premium": false,
+    "name": "Node.js Developer",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 45000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-18T16:22:45+0300",
+    "created_at": "2023-05-18T16:22:45+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80672130",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80672130?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80672130",
+    "relations": [],
+    "employer": {
+      "id": "6164545",
+      "name": "Fojin",
+      "url": "https://api.hh.ru/employers/6164545",
+      "alternate_url": "https://hh.ru/employer/6164545",
+      "logo_urls": {
+        "90": "https://hhcdn.ru/employer-logo/4278944.png",
+        "240": "https://hhcdn.ru/employer-logo/4278945.png",
+        "original": "https://hhcdn.ru/employer-logo-original/959606.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "У тебя есть опыт работы с Node.js/Nest.js/Express.js. Твой уровень английского от Pre-Intermediate (В1). Знаком с HTML...",
+      "responsibility": "Немного знаком с Typescript."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "74369182",
+    "premium": false,
+    "name": "Системный администратор Windows",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 80000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "микрорайон Юбилейный, проспект Чекистов",
+      "building": "34/1",
+      "lat": 45.031553,
+      "lng": 38.917057,
+      "description": null,
+      "raw": "Краснодар, микрорайон Юбилейный, проспект Чекистов, 34/1",
+      "metro": null,
+      "metro_stations": [],
+      "id": "4653874"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-16T15:37:41+0300",
+    "created_at": "2023-05-16T15:37:41+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=74369182",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/74369182?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/74369182",
+    "relations": [],
+    "employer": {
+      "id": "2222250",
+      "name": "Сеть аптек Апрель",
+      "url": "https://api.hh.ru/employers/2222250",
+      "alternate_url": "https://hh.ru/employer/2222250",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/1076777.png",
+        "240": "https://hhcdn.ru/employer-logo/5927738.png",
+        "90": "https://hhcdn.ru/employer-logo/5927737.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2222250",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Наличие навыков по сопровождению и администрированию систем мониторинга. Знание PowerShell, VBS, умение составлять скрипты автоматизации на <highlighttext>Python</highlighttext>/Perl. ",
+      "responsibility": "Администрирование серверных ОС Windows Server 2019, 2016, 2012 R2 (IIS, AD, DNS, DHCP). Мониторинг доступности, производительности и формирование планов..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "113",
+        "name": "Системный администратор"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "79233486",
+    "premium": false,
+    "name": "Младший аналитик (взыскание)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": null,
+      "to": 85000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-15T10:53:52+0300",
+    "created_at": "2023-05-15T10:53:52+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79233486",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/79233486?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/79233486",
+    "relations": [],
+    "employer": {
+      "id": "1245158",
+      "name": "МФК Саммит",
+      "url": "https://api.hh.ru/employers/1245158",
+      "alternate_url": "https://hh.ru/employer/1245158",
+      "logo_urls": {
+        "90": "https://hhcdn.ru/employer-logo/3244532.png",
+        "240": "https://hhcdn.ru/employer-logo/3244533.png",
+        "original": "https://hhcdn.ru/employer-logo-original/700854.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1245158",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Умеет работать с большими массивами данных. Имеет опыт работы аналитиком (или построения отчетности). Знание <highlighttext>Python</highlighttext> / R / loginom будет являться преимуществом.",
+      "responsibility": "Формировать периодическую (дневную, недельную и месячную) отчетность в Excel, PowerPoint и PowerBi. Вести статистику и плановую отчетность по отделу взыскания. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "10",
+        "name": "Аналитик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80234551",
+    "premium": false,
+    "name": "Automation QA Engineer (Java/Python)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 56000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-10T12:42:12+0300",
+    "created_at": "2023-05-10T12:42:12+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80234551",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80234551?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80234551",
+    "relations": [],
+    "employer": {
+      "id": "6164545",
+      "name": "Fojin",
+      "url": "https://api.hh.ru/employers/6164545",
+      "alternate_url": "https://hh.ru/employer/6164545",
+      "logo_urls": {
+        "90": "https://hhcdn.ru/employer-logo/4278944.png",
+        "240": "https://hhcdn.ru/employer-logo/4278945.png",
+        "original": "https://hhcdn.ru/employer-logo-original/959606.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6164545",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Коммерческий опыт работы в автотестировании от 6 мес. Умение проводить различные виды ручного тестирования. Понимание клиент-серверной архитектуры, REST. ",
+      "responsibility": "Организация и проведение различных видов автоматизированного тестирования на Java или <highlighttext>Python</highlighttext>. Анализ результатов, полученных во время проведения тестирования, составление отчетности."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "124",
+        "name": "Тестировщик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80200400",
+    "premium": false,
+    "name": "Программист встраиваемых систем",
+    "department": {
+      "id": "68587-68587-manager",
+      "name": "Алабуга. Проектный менеджмент"
+    },
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 200000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-09T17:03:46+0300",
+    "created_at": "2023-05-09T17:03:46+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80200400",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80200400?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80200400",
+    "relations": [],
+    "employer": {
+      "id": "68587",
+      "name": "Алабуга, ОЭЗ ППТ",
+      "url": "https://api.hh.ru/employers/68587",
+      "alternate_url": "https://hh.ru/employer/68587",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/481384.jpg",
+        "240": "https://hhcdn.ru/employer-logo/2367389.jpeg",
+        "90": "https://hhcdn.ru/employer-logo/2367388.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=68587",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт разработки систем управления в MATLAB/SIMULINK. Опыт владения <highlighttext>Python</highlighttext>. Дополнительные знания в областях сотовой связи, систем с использованием ГЛОНАСС...",
+      "responsibility": "Разрабатывать и поддерживать код для микроконтроллеров STM32, Texas Instruments C2000, AVR на С\\С++. Разрабатывать и поддерживать код..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "79015287",
+    "premium": false,
+    "name": "Ночной специалист службы поддержки с техническими знаниями (Браузер)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 18000,
+      "to": 45000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-06T19:13:22+0300",
+    "created_at": "2023-05-06T19:13:22+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79015287",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/79015287?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/79015287",
+    "relations": [],
+    "employer": {
+      "id": "9498112",
+      "name": "Яндекс Крауд",
+      "url": "https://api.hh.ru/employers/9498112",
+      "alternate_url": "https://hh.ru/employer/9498112",
+      "logo_urls": null,
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498112",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Умеете читать языки JavaScript, HTML и <highlighttext>Python</highlighttext>. Имеете высшее или неоконченное высшее образование (техническое будет плюсом). Помогали людям онлайн. ",
+      "responsibility": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию разработчикам и..."
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "121",
+        "name": "Специалист технической поддержки"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "part",
+      "name": "Частичная занятость"
+    }
+  },
+  {
+    "id": "80164170",
+    "premium": false,
+    "name": "Инженер-программист",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 55000,
+      "to": 66000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "улица Демуса",
+      "building": "11",
+      "lat": 45.049953,
+      "lng": 39.095624,
+      "description": null,
+      "raw": "Краснодар, улица Демуса, 11",
+      "metro": null,
+      "metro_stations": [],
+      "id": "6494814"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-05T16:26:46+0300",
+    "created_at": "2023-05-05T16:26:46+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80164170",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80164170?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80164170",
+    "relations": [],
+    "employer": {
+      "id": "952073",
+      "name": "Завод ЭЛЕКТРОСЕВКАВМОНТАЖИНДУСТРИЯ",
+      "url": "https://api.hh.ru/employers/952073",
+      "alternate_url": "https://hh.ru/employer/952073",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/772239.png",
+        "90": "https://hhcdn.ru/employer-logo/3529847.png",
+        "240": "https://hhcdn.ru/employer-logo/3529848.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=952073",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "...CentOS, знание основных репозиториев *.nix и навыки объектового программирования в <highlighttext>Python</highlighttext>, Perl, Java и ASP.NET, опыт поднятия web-серверов c...",
+      "responsibility": "Диагностика инцидентов на web-серверах Общества. Аадминистрирование\\изменение конфигурации сайта Общества и оперативное устранение внешних неисправностей внешних сетевых ресурсов Общества. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "80085448",
+    "premium": false,
+    "name": "Педагог курсов по программированию в частную школу",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 30000,
+      "to": 60000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Краснодар",
+      "street": "Северная улица",
+      "building": "405",
+      "lat": 45.037451,
+      "lng": 38.995678,
+      "description": null,
+      "raw": "Краснодар, Северная улица, 405",
+      "metro": null,
+      "metro_stations": [],
+      "id": "3430756"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-04T10:04:24+0300",
+    "created_at": "2023-05-04T10:04:24+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80085448",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/80085448?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/80085448",
+    "relations": [],
+    "employer": {
+      "id": "3110349",
+      "name": "Алгоритмика::Краснодар (ООО Кидстартер)",
+      "url": "https://api.hh.ru/employers/3110349",
+      "alternate_url": "https://hh.ru/employer/3110349",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/1017413.png",
+        "90": "https://hhcdn.ru/employer-logo/5690420.png",
+        "240": "https://hhcdn.ru/employer-logo/5690421.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3110349",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт работы с детьми будет огромным плюсом (репетиторство, работа вожатым, преподавание в группах). Желание учиться. Быть в теме IT - сферы. ",
+      "responsibility": null
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": true,
+    "professional_roles": [
+      {
+        "id": "132",
+        "name": "Учитель, преподаватель, педагог"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  },
+  {
+    "id": "79973268",
+    "premium": false,
+    "name": "Руководитель IT-проектов",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "53",
+      "name": "Краснодар",
+      "url": "https://api.hh.ru/areas/53"
+    },
+    "salary": {
+      "from": 80000,
+      "to": 150000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2023-05-02T10:25:20+0300",
+    "created_at": "2023-05-02T10:25:20+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79973268",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/79973268?host=hh.ru",
+    "adv_response_url": null,
+    "alternate_url": "https://hh.ru/vacancy/79973268",
+    "relations": [],
+    "employer": {
+      "id": "3202769",
+      "name": "ДЖАСТ ВОРК",
+      "url": "https://api.hh.ru/employers/3202769",
+      "alternate_url": "https://hh.ru/employer/3202769",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/2398998.png",
+        "90": "https://hhcdn.ru/employer-logo/2398997.png",
+        "original": "https://hhcdn.ru/employer-logo-original/489311.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3202769",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Высокий уровень культуры командного взаимодействия и коммуникации. Чтобы справляться, нужно уметь планировать собственный график работы, уметь вести документацию проектов, иметь...",
+      "responsibility": "Управлять ходом проекта от сбора требований до внедрения. Составлять и актуализировать планы проектов. Постоянно анализировать и управлять рисками проектов. "
+    },
+    "contacts": null,
+    "schedule": null,
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "107",
+        "name": "Руководитель проектов"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between3And6",
+      "name": "От 3 до 6 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    }
+  }
+]

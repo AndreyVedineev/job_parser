@@ -5,7 +5,7 @@ import requests
 from config import SJ_SECRET_KEY
 from src.abs import ParsingErorr
 
-path_sj = os.path.join('..', 'src', 'references', 'vacancy_sj.json')  # путь к файлу
+path_sj = os.path.join('src', 'references', 'vacancy_sj.json')  # путь к файлу
 
 
 class SaveJsonSJ:
@@ -20,9 +20,9 @@ class SaveJsonSJ:
         self.url = 'https://api.superjob.ru/2.0/vacancies/?'
 
     def get_vacancies(self):
+        sj_vac = []
         number = 0
         while True:
-
             params = {'keyword': self.key_word,
                       'order_field': 'date',
                       'order_direction': 'asc',
@@ -34,20 +34,16 @@ class SaveJsonSJ:
                       'count': 20
                       }
             headers = {'X-Api-App-Id': SJ_SECRET_KEY}
-            try:
-                response = requests.get(self.url, params=params, headers=headers)
-                print(f'Запрос № {str(number)} к сайту SuperJob')
-                if response.status_code != 200:
-                    raise ParsingErorr(f"Ошибка получения вакансий!")
-                result_sj = response.json()
-            except ConnectionResetError as e:
-                print(ParsingErorr("Ошибка получения вакансии - ", e))
-
+            response = requests.get(self.url, params=params, headers=headers)
+            if response.status_code != 200:
+                raise ParsingErorr
+            print(f'Запрос № {str(number)} к сайту SuperJob')
+            result_sj = response.json()
             if result_sj['objects']:
-                next_file_name = 'data/{}.json'.format(len(os.listdir('data')))
-                f = open(next_file_name, mode='w', encoding='utf8')
-                f.write(json.dumps(result_sj['objects'], ensure_ascii=False))
-                f.close()
+                sj_vac.extend(result_sj['objects'])
                 number += 1
             else:
                 break
+        f = open(path_sj, mode='w', encoding='utf8')
+        f.write(json.dumps(sj_vac, ensure_ascii=False))
+        f.close()
