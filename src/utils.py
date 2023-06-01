@@ -120,6 +120,7 @@ def normalization_of_requirement_hh(list_no_norm):
 
 def normalization_of_requirement_sj(list_no_norm: object) -> object:
     """Удаляет не нужные нам символы Наверно есть другой способ 😀"""
+
     for i in list_no_norm:
         a = str(i.requirement)
         b = a.replace('<b>', ' ')
@@ -145,13 +146,5 @@ def average_salary(list_):
     return sums / len(list_)
 
 
-def create_dir_data():
-    """создать пустой каталог (папку)"""
-    if not os.path.isdir("data"):
-        os.mkdir("data")
 
-
-def del_folder():
-    """ Удаляет не нужный каталог """
-    os.rmdir("data")
 
